@@ -1,0 +1,80 @@
+{
+  "Text": "Generic, LED - RGBA (16 bit)",
+  "Model": "LED - RGBA",
+  "Mode": "16 bit",
+  "Manufacturer": "Generic",
+  "ID": "a363f69d-725a-46eb-963d-09d3c405c9cd",
+  "ChannelCount": 8,
+  "Attributes": [
+    {
+      "ID": "e45aa1be-8668-4082-aab1-706d5353ab40",
+      "AddressCoarse": 1,
+      "List": {},
+      "AddressFine": 2,
+      "DefaultValue": 0,
+      "DimmerReact": true,
+      "Preset": false,
+      "Resolution": "16Bits",
+      "Text": "Red",
+      "IsVirtual": false,
+      "MasterReact": false,
+      "Invert": false
+    },
+    {
+      "ID": "759b9be6-be68-4d2b-bc6e-aa9c9c9d5488",
+      "AddressCoarse": 3,
+      "List": {},
+      "AddressFine": 4,
+      "DefaultValue": 0,
+      "DimmerReact": true,
+      "Preset": false,
+      "Resolution": "16Bits",
+      "Text": "Green",
+      "IsVirtual": false,
+      "MasterReact": false,
+      "Invert": false
+    },
+    {
+      "ID": "ce287d7d-8531-435d-824e-ce897525a7d3",
+      "AddressCoarse": 5,
+      "List": {},
+      "AddressFine": 6,
+      "DefaultValue": 0,
+      "DimmerReact": true,
+      "Preset": false,
+      "Resolution": "16Bits",
+      "Text": "Blue",
+      "IsVirtual": false,
+      "MasterReact": false,
+      "Invert": false
+    },
+    {
+      "ID": "4b5d2240-ba3c-4d99-bbdc-8c513a485c68",
+      "AddressCoarse": 7,
+      "List": {},
+      "AddressFine": 8,
+      "DefaultValue": 0,
+      "DimmerReact": true,
+      "Preset": false,
+      "Resolution": "16Bits",
+      "Text": "Amber",
+      "IsVirtual": false,
+      "MasterReact": false,
+      "Invert": false
+    },
+    {
+      "ID": "f974e7fa-2046-4b56-9159-c17896dd2f05",
+      "AddressCoarse": "",
+      "Invert": false,
+      "AddressFine": "",
+      "Resolution": "8Bits",
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": true,
+      "Text": "Dimmer",
+      "DefaultValue": 0,
+      "MasterReact": true,
+      "List": {}
+    }
+  ]
+}
