@@ -1,0 +1,238 @@
+{
+  "Text": "Chauvet, COREpar Q120 ILS (9Ch)",
+  "Model": "COREpar Q120 ILS",
+  "Mode": "9Ch",
+  "Manufacturer": "Chauvet",
+  "ID": "a7509cc8-4ebf-4e82-93d4-cdff8644d061",
+  "ChannelCount": 9,
+  "Attributes": [
+    {
+      "MasterReact": false,
+      "Text": "Red",
+      "Preset": false,
+      "OtherName": "Red",
+      "IsVirtual": false,
+      "AddressCoarse": 1,
+      "ID": "46ebbe66-e469-45bb-ab23-4ae581e38a7b",
+      "Invert": false,
+      "DimmerReact": false,
+      "AddressFine": "",
+      "DefaultValue": 0,
+      "Resolution": "8Bits",
+      "List": {}
+    },
+    {
+      "MasterReact": false,
+      "Text": "Green",
+      "Preset": false,
+      "OtherName": "Green",
+      "IsVirtual": false,
+      "AddressCoarse": 2,
+      "ID": "111054b2-61ab-43b9-a818-0f7fb8ab560c",
+      "Invert": false,
+      "DimmerReact": false,
+      "AddressFine": "",
+      "DefaultValue": 0,
+      "Resolution": "8Bits",
+      "List": {}
+    },
+    {
+      "MasterReact": false,
+      "Text": "Blue",
+      "Preset": false,
+      "OtherName": "Blue",
+      "IsVirtual": false,
+      "AddressCoarse": 3,
+      "ID": "204c3570-789c-465d-b9f0-9d644096007d",
+      "Invert": false,
+      "DimmerReact": false,
+      "AddressFine": "",
+      "DefaultValue": 0,
+      "Resolution": "8Bits",
+      "List": {}
+    },
+    {
+      "MasterReact": false,
+      "Text": "White",
+      "Preset": false,
+      "OtherName": "White",
+      "IsVirtual": false,
+      "AddressCoarse": 4,
+      "ID": "e6b9ce99-1c79-499d-a504-53c5d1bae28e",
+      "Invert": false,
+      "DimmerReact": false,
+      "AddressFine": "",
+      "DefaultValue": 0,
+      "Resolution": "8Bits",
+      "List": {}
+    },
+    {
+      "AddressFine": "",
+      "Text": "Colorwheel1",
+      "Invert": false,
+      "OtherName": "Color macros",
+      "ID": "a7509cc8-4ebf-4e82-93d3-cdff9644d061",
+      "AddressCoarse": 5,
+      "DefaultValue": 0,
+      "Resolution": "8Bits",
+      "MasterReact": false,
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "List": [
+        {
+          "FromValue": 0,
+          "ToValue": 0.03921568766236305,
+          "ID": "a00e449b-db73-4b77-bb19-6b995236c8fc",
+          "Text": "No function"
+        },
+        {
+          "FromValue": 0.04313725605607033,
+          "ToValue": 1,
+          "ID": "52a71b82-f2eb-4461-ba2e-d932d728b649",
+          "Text": "Color macros"
+        }
+      ],
+      "Preset": true
+    },
+    {
+      "AddressFine": "",
+      "Text": "Shutter",
+      "Invert": false,
+      "OtherName": "Not supported",
+      "ID": "acb715d0-8a61-4fe8-975d-574f4b93cd68",
+      "AddressCoarse": 6,
+      "DefaultValue": 0,
+      "Resolution": "8Bits",
+      "MasterReact": false,
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "List": {},
+      "Preset": false
+    },
+    {
+      "AddressFine": "",
+      "Text": "Other1",
+      "Invert": false,
+      "OtherName": "Auto program",
+      "ID": "9571b99b-c29d-4e9b-8af5-9421ddb2511a",
+      "AddressCoarse": 7,
+      "DefaultValue": 0,
+      "Resolution": "8Bits",
+      "MasterReact": false,
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "List": [
+        {
+          "FromValue": 0,
+          "ToValue": 0.12156863510608673,
+          "ID": "d8764782-5b5d-4fdb-9f21-c89f1ea51834",
+          "Text": "No function"
+        },
+        {
+          "FromValue": 0.125490203499794,
+          "ToValue": 0.24705882370471954,
+          "ID": "e8a1767c-86b8-4960-a19d-7b76c85fa252",
+          "Text": "Pulse effect, 0-100?"
+        },
+        {
+          "FromValue": 0.250980406999588,
+          "ToValue": 0.37254902720451355,
+          "ID": "bf9050a2-dd9b-4d02-a931-29555acc89ce",
+          "Text": "Pulse effect, 100-0%"
+        },
+        {
+          "FromValue": 0.3764705955982208,
+          "ToValue": 0.49803921580314636,
+          "ID": "2a642d16-9483-441c-84ce-cb95d3d338f0",
+          "Text": "Pulse effect, 100-0-100%"
+        },
+        {
+          "FromValue": 0.501960813999176,
+          "ToValue": 0.6235294342041016,
+          "ID": "18614e32-2e10-405e-96fd-8db6408f6394",
+          "Text": "Automatic 4-color pulse"
+        },
+        {
+          "FromValue": 0.6274510025978088,
+          "ToValue": 0.7490196228027344,
+          "ID": "af6e0f9c-9236-4061-ad1c-abc8a2bbc0da",
+          "Text": "Automatic 4-color snap"
+        },
+        {
+          "FromValue": 0.7529411911964417,
+          "ToValue": 0.8745098114013672,
+          "ID": "b18f042f-94e5-4b32-88e1-e71c2fcd370c",
+          "Text": "Automatic 29-color snap"
+        },
+        {
+          "FromValue": 0.8784313797950745,
+          "ToValue": 1,
+          "ID": "164f0433-29ef-43ca-ae7e-a2a96f898465",
+          "Text": "Sound-active 29-color snap"
+        }
+      ],
+      "Preset": true
+    },
+    {
+      "MasterReact": true,
+      "Text": "Dimmer",
+      "Preset": false,
+      "OtherName": "Dimmer",
+      "IsVirtual": false,
+      "AddressCoarse": 8,
+      "ID": "cf3ecfde-a294-44bc-8b71-cd1497c3bf0a",
+      "Invert": false,
+      "DimmerReact": false,
+      "AddressFine": "",
+      "DefaultValue": 0,
+      "Resolution": "8Bits",
+      "List": {}
+    },
+    {
+      "AddressFine": "",
+      "Text": "Dimmer Curve",
+      "Invert": false,
+      "OtherName": "Dimmer speed",
+      "ID": "0c316913-2a79-4b7a-9d93-fe6f2e97ab04",
+      "AddressCoarse": 9,
+      "DefaultValue": 0,
+      "Resolution": "8Bits",
+      "MasterReact": false,
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "List": [
+        {
+          "FromValue": 0,
+          "ToValue": 0.20000000298023224,
+          "ID": "46ebbe66-e469-45bb-ab23-4ae581e38a7b",
+          "Text": "Dimmer speed set from display menu"
+        },
+        {
+          "FromValue": 0.20392157137393951,
+          "ToValue": 0.3960784673690796,
+          "ID": "111054b2-61ab-43b9-a818-0f7fb8ab560c",
+          "Text": "Dimmer speed mode off"
+        },
+        {
+          "FromValue": 0.4000000059604645,
+          "ToValue": 0.5960784554481506,
+          "ID": "204c3570-789c-465d-b9f0-9d644096007d",
+          "Text": "Dimmer speed mode 1 (fast)"
+        },
+        {
+          "FromValue": 0.6000000238418579,
+          "ToValue": 0.7960784435272217,
+          "ID": "e6b9ce99-1c79-499d-a504-53c5d1bae28e",
+          "Text": "Dimmer speed mode 2 (medium)"
+        },
+        {
+          "FromValue": 0.800000011920929,
+          "ToValue": 1,
+          "ID": "cf3ecfde-a294-44bc-8b71-cd1497c3bf0a",
+          "Text": "Dimmer speed mode 3 (slow)"
+        }
+      ],
+      "Preset": true
+    }
+  ]
+}
