@@ -1,0 +1,25 @@
+{
+  "Text": "Chauvet, F-55W (1ch)",
+  "Model": "F-55W",
+  "Mode": "1ch",
+  "Manufacturer": "Chauvet",
+  "ID": "47d2f831-3333-4f9b-9ace-ed410e2e5f65",
+  "ChannelCount": 1,
+  "Attributes": [
+    {
+      "OtherName": "",
+      "MasterReact": true,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 1,
+      "ID": "ae66a478-ccb7-4d84-90ec-54350e362e9c",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Dimmer",
+      "Preset": false
+    }
+  ]
+}
