@@ -1,0 +1,543 @@
+{
+  "Text": "Chauvet, Colorado 1 solo (Tour)",
+  "Model": "Colorado 1 solo",
+  "Mode": "Tour",
+  "Manufacturer": "Chauvet",
+  "ID": "37c6ac25-fb3d-40b0-8189-83141624d84f",
+  "ChannelCount": 12,
+  "Attributes": [
+    {
+      "OtherName": "",
+      "MasterReact": true,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 1,
+      "ID": "e14b7458-c81d-4818-bb77-e85ea18148c5",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Dimmer",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 2,
+      "ID": "db75796a-87d2-4010-846b-728dc3e5290f",
+      "DefaultValue": 1,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Red",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 3,
+      "ID": "8603e920-8ea3-46f1-9855-a448e75a796e",
+      "DefaultValue": 1,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Green",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 4,
+      "ID": "1a2311bd-77a6-4a1d-9e8f-6ba5dd1b53dc",
+      "DefaultValue": 1,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Blue",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 5,
+      "ID": "4921c642-8353-4aba-a05f-54254f349c94",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "White",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": [
+        {
+          "ID": "d4d9e147-bb15-47f1-9185-cdb902f6abed",
+          "FromValue": 0,
+          "Text": "None",
+          "ToValue": 0.03529411926865578
+        },
+        {
+          "ID": "e77bc6b4-50dc-4631-9ac5-47c85bf64e99",
+          "FromValue": 0.03921568766236305,
+          "Text": "Red",
+          "ToValue": 0.11372549086809158
+        },
+        {
+          "ID": "5cdd61af-b729-43d4-bd65-6aee4c8fea04",
+          "FromValue": 0.11764705926179886,
+          "Text": "Yellow",
+          "ToValue": 0.1921568661928177
+        },
+        {
+          "ID": "4c445ed3-53f3-4ed1-a363-ce40cb88511c",
+          "FromValue": 0.19607843458652496,
+          "Text": "Green",
+          "ToValue": 0.2705882489681244
+        },
+        {
+          "ID": "054285b9-9eab-4914-8cf9-47282868abb9",
+          "FromValue": 0.27450981736183167,
+          "Text": "Cyan",
+          "ToValue": 0.3490196168422699
+        },
+        {
+          "ID": "1fb0372f-7c9c-49d4-bd52-1ff911566bc9",
+          "FromValue": 0.3529411554336548,
+          "Text": "Blue",
+          "ToValue": 0.4274509847164154
+        },
+        {
+          "ID": "e9e33275-3dcd-467f-8c48-3a42d7de927a",
+          "FromValue": 0.4313725531101227,
+          "Text": "Magenta",
+          "ToValue": 0.5058823823928833
+        },
+        {
+          "ID": "dff8109d-9994-4c6e-8f06-55053c70e697",
+          "FromValue": 0.5098039507865906,
+          "Text": "Red",
+          "ToValue": 0.5843137502670288
+        },
+        {
+          "ID": "b99936ce-9ccf-4c3a-addb-b96ef849aaf8",
+          "FromValue": 0.5882353186607361,
+          "Text": "White",
+          "ToValue": 0.6627451181411743
+        },
+        {
+          "ID": "15039b57-1d65-4e99-b935-3aaac78267fe",
+          "FromValue": 0.6666667461395264,
+          "Text": "Full",
+          "ToValue": 0.7607843279838562
+        },
+        {
+          "ID": "01165ed9-76e8-41d6-bf30-7155f0fcccc9",
+          "FromValue": 0.7647058963775635,
+          "Text": "White 1",
+          "ToValue": 0.7803921699523926
+        },
+        {
+          "ID": "008b24b5-58ef-4ed9-bb4f-6f972b058302",
+          "FromValue": 0.7843137383460999,
+          "Text": "White 2",
+          "ToValue": 0.800000011920929
+        },
+        {
+          "ID": "84d85014-80c1-4ec3-97cd-e8a39abf925d",
+          "FromValue": 0.8039215803146362,
+          "Text": "White 3",
+          "ToValue": 0.8196078538894653
+        },
+        {
+          "ID": "cbfc110f-73a3-45ca-b2a2-616ccdb67a14",
+          "FromValue": 0.8235294222831726,
+          "Text": "White 4",
+          "ToValue": 0.8392156958580017
+        },
+        {
+          "ID": "2390f5f8-0962-4624-8049-d59eb0ca1189",
+          "FromValue": 0.843137264251709,
+          "Text": "White 5",
+          "ToValue": 0.8588235378265381
+        },
+        {
+          "ID": "60af615d-1e9b-4290-989a-d8a9f50a3cd3",
+          "FromValue": 0.8627451062202454,
+          "Text": "White 6",
+          "ToValue": 0.8784313797950745
+        },
+        {
+          "ID": "e79c0b74-6a1e-403c-a50e-b4c033802867",
+          "FromValue": 0.8823530077934265,
+          "Text": "White 7",
+          "ToValue": 0.8980392217636108
+        },
+        {
+          "ID": "d062b562-5755-48b7-93f2-573deb6b4727",
+          "FromValue": 0.9023999571800232,
+          "Text": "White 8",
+          "ToValue": 0.917647123336792
+        },
+        {
+          "ID": "56074508-dca8-4af7-bbab-e866c3416561",
+          "FromValue": 0.9215686321258545,
+          "Text": "White 9",
+          "ToValue": 0.9372549653053284
+        },
+        {
+          "ID": "771c2ad6-3dc5-4103-a697-e639e893a7c4",
+          "FromValue": 0.9411764740943909,
+          "Text": "White 10",
+          "ToValue": 0.9574999809265137
+        },
+        {
+          "ID": "98af2400-6229-40ec-b579-6c2385b7c708",
+          "FromValue": 0.9607843160629272,
+          "Text": "White 11",
+          "ToValue": 0.9764705896377563
+        },
+        {
+          "ID": "e7a34cf6-33d7-4a05-8ff8-d18db69ba4d9",
+          "FromValue": 0.9803921580314636,
+          "Text": "White 12",
+          "ToValue": 1
+        }
+      ],
+      "AddressCoarse": 6,
+      "ID": "0ab1a33b-fce8-4ed9-ab2c-269bde16977c",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Colorwheel1",
+      "Preset": true
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": [
+        {
+          "ID": "6ad8225a-e57a-4038-bd3c-a4338cd0cf20",
+          "FromValue": 0,
+          "Text": "Open",
+          "ToValue": 0.0313725508749485
+        },
+        {
+          "ID": "da66c1e5-ddc3-4aca-a76b-8b49e7cf6d9b",
+          "FromValue": 0.03529411926865578,
+          "Text": "Strobe",
+          "ToValue": 0.3843137323856354
+        },
+        {
+          "ID": "fc880a6d-4997-4eb6-9a3c-358105457ec7",
+          "FromValue": 0.3885999917984009,
+          "Text": "Open",
+          "ToValue": 0.4235294461250305
+        },
+        {
+          "ID": "6b950231-260c-4c78-8d38-fdd8846b1900",
+          "FromValue": 0.4274509847164154,
+          "Text": "Lightning",
+          "ToValue": 0.6980392336845398
+        },
+        {
+          "ID": "2a3fd685-c30c-42d2-ae74-0161ff3d0c2d",
+          "FromValue": 0.7019608020782471,
+          "Text": "Open",
+          "ToValue": 0.7372549176216125
+        },
+        {
+          "ID": "f003abb6-bc65-48a2-ae4c-9d827dab3a85",
+          "FromValue": 0.7416999936103821,
+          "Text": "Random",
+          "ToValue": 1
+        }
+      ],
+      "AddressCoarse": 7,
+      "ID": "61a2babe-c941-44bf-93c9-57f5f3a92e7a",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Shutter",
+      "Preset": true
+    },
+    {
+      "OtherName": "Macros",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": [
+        {
+          "ID": "acfe7bc6-5c02-4555-aeb7-5d1cfb14af35",
+          "FromValue": 0,
+          "Text": "Open",
+          "ToValue": 0.15294118225574493
+        },
+        {
+          "ID": "0337f8b3-96b1-4cf8-918a-8b85621241ab",
+          "FromValue": 0.1568627506494522,
+          "Text": "Auto 1",
+          "ToValue": 0.1921568661928177
+        },
+        {
+          "ID": "a9d0caf2-2ef9-43d2-b376-6d6473939ce8",
+          "FromValue": 0.19607843458652496,
+          "Text": "Auto 2",
+          "ToValue": 0.23137255012989044
+        },
+        {
+          "ID": "7de0ada3-207d-407d-a147-d3a1582a1781",
+          "FromValue": 0.23529411852359772,
+          "Text": "Auto 3",
+          "ToValue": 0.2705882489681244
+        },
+        {
+          "ID": "de75d51a-ac5f-45c4-8476-483e60e653cf",
+          "FromValue": 0.27450981736183167,
+          "Text": "Auto 4",
+          "ToValue": 0.30980393290519714
+        },
+        {
+          "ID": "bbf6e92d-36bb-49f0-b976-599601931063",
+          "FromValue": 0.3137255012989044,
+          "Text": "Auto 5",
+          "ToValue": 0.3490196168422699
+        },
+        {
+          "ID": "0e4c903d-d1bb-401e-b57b-c2b863d18cdd",
+          "FromValue": 0.35359999537467957,
+          "Text": "Auto 6",
+          "ToValue": 0.3886999785900116
+        },
+        {
+          "ID": "48a59fbe-fa09-4d5b-a608-87e54b658fe3",
+          "FromValue": 0.3921568691730499,
+          "Text": "Auto 7",
+          "ToValue": 0.4274509847164154
+        },
+        {
+          "ID": "44d1e3e8-3f7c-406b-9a22-73efc29e6d14",
+          "FromValue": 0.4313725531101227,
+          "Text": "Auto 8",
+          "ToValue": 0.46666666865348816
+        },
+        {
+          "ID": "4a5f8a8b-94ef-41d3-92aa-aceadfe00dda",
+          "FromValue": 0.47058823704719543,
+          "Text": "Auto 9",
+          "ToValue": 0.5058823823928833
+        },
+        {
+          "ID": "c984af3d-f67b-4cde-8121-1f6b822bd884",
+          "FromValue": 0.5098039507865906,
+          "Text": "Auto 10",
+          "ToValue": 0.545098066329956
+        },
+        {
+          "ID": "c63ca2c4-862b-42fd-b239-185edb951bc5",
+          "FromValue": 0.5490196347236633,
+          "Text": "Custom 1",
+          "ToValue": 0.5843137502670288
+        },
+        {
+          "ID": "bb5fa071-48d8-42a5-8109-82c810b3dfe0",
+          "FromValue": 0.5882353186607361,
+          "Text": "Custom 2",
+          "ToValue": 0.6235294342041016
+        },
+        {
+          "ID": "1c30ed75-5ad4-4a88-9568-26260d420bca",
+          "FromValue": 0.6274510025978088,
+          "Text": "Custom 3",
+          "ToValue": 0.6627451181411743
+        },
+        {
+          "ID": "fcd1fc51-0b9d-4f5e-b0a0-9015d0e30574",
+          "FromValue": 0.6666667461395264,
+          "Text": "Custom 4",
+          "ToValue": 0.7019608020782471
+        },
+        {
+          "ID": "e0649bed-8796-433c-a53f-496372428b80",
+          "FromValue": 0.70660001039505,
+          "Text": "Custom 5",
+          "ToValue": 0.7416000366210938
+        },
+        {
+          "ID": "945e633f-1556-42c7-bdc3-572ab9448db3",
+          "FromValue": 0.7450980544090271,
+          "Text": "Custom 6",
+          "ToValue": 0.7803921699523926
+        },
+        {
+          "ID": "046954a6-56fd-48dd-9b96-3c82654f0e9e",
+          "FromValue": 0.7843137383460999,
+          "Text": "Custom 7",
+          "ToValue": 0.8196078538894653
+        },
+        {
+          "ID": "08783c0f-5d95-4066-bc5b-6e6ad606c652",
+          "FromValue": 0.8235294222831726,
+          "Text": "Custom 8",
+          "ToValue": 0.8588235378265381
+        },
+        {
+          "ID": "5e16b34a-87da-4767-a882-2da3b9684dca",
+          "FromValue": 0.8627451062202454,
+          "Text": "Custom 9",
+          "ToValue": 0.8980392217636108
+        },
+        {
+          "ID": "c7d0fc5f-0d14-4404-96fe-f9677828fb54",
+          "FromValue": 0.9019999504089355,
+          "Text": "Custom 10",
+          "ToValue": 1
+        }
+      ],
+      "AddressCoarse": 8,
+      "ID": "b5b0ba2b-68d9-470a-a59c-008b4cdb4861",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Other1",
+      "Preset": true
+    },
+    {
+      "OtherName": "Macro Speed",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 9,
+      "ID": "9595b11f-0616-4647-84ae-e763fb5b99ea",
+      "DefaultValue": 0.5,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Other2",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 10,
+      "ID": "318b9087-feb3-4147-a061-fb00afbc2a9a",
+      "DefaultValue": 0.5,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Zoom",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": [
+        {
+          "ID": "0af1d65f-fede-4935-9627-05c914d9e1c1",
+          "FromValue": 0,
+          "Text": "No Function",
+          "ToValue": 0.7803921699523926
+        },
+        {
+          "ID": "87eded3e-190b-49bf-b959-a612ade53d00",
+          "FromValue": 0.7843137383460999,
+          "Text": "Zoom Reset",
+          "ToValue": 0.8588235378265381
+        },
+        {
+          "ID": "a0094ec7-87ef-4e23-84db-169e5cb788fb",
+          "FromValue": 0.8627451062202454,
+          "Text": "No Function",
+          "ToValue": 1
+        }
+      ],
+      "AddressCoarse": 11,
+      "ID": "f1edae92-e942-4ada-b7fa-b0dbfd5134fd",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Control",
+      "Preset": true
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": [
+        {
+          "ID": "67cd7dad-9443-431a-8fa2-20f5b9c75d8c",
+          "FromValue": 0,
+          "Text": "From Menu",
+          "ToValue": 0.0313725508749485
+        },
+        {
+          "ID": "44b70750-e7e9-4d35-8c07-05ba71554bc4",
+          "FromValue": 0.03529411926865578,
+          "Text": "Linear",
+          "ToValue": 0.10980392247438431
+        },
+        {
+          "ID": "2b666c4e-f54d-4104-b594-19f45228c3f7",
+          "FromValue": 0.11372549086809158,
+          "Text": "Curve 1 (fast)",
+          "ToValue": 0.2666666805744171
+        },
+        {
+          "ID": "213f2b48-d8ea-4812-a480-fababe7996d7",
+          "FromValue": 0.2705882489681244,
+          "Text": "Curve 2",
+          "ToValue": 0.501960813999176
+        },
+        {
+          "ID": "3fac8a0d-bd22-4b07-a677-400f52cd7228",
+          "FromValue": 0.5058823823928833,
+          "Text": "Curve 3",
+          "ToValue": 0.7372549176216125
+        },
+        {
+          "ID": "afb2d11a-b4e2-4dd3-bb97-00906a76d88d",
+          "FromValue": 0.7416000366210938,
+          "Text": "Curve 4 (Slow)",
+          "ToValue": 1
+        }
+      ],
+      "AddressCoarse": 12,
+      "ID": "33d63ec6-58af-4bb6-afa5-6ab7a411272a",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Dimmer Curve",
+      "Preset": true
+    }
+  ]
+}
