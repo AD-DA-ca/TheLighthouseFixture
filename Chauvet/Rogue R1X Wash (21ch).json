@@ -1,0 +1,878 @@
+{
+  "Text": "Chauvet, Rogue R1X Wash (21ch)",
+  "Model": "Rogue R1X Wash",
+  "Mode": "21ch",
+  "Manufacturer": "Chauvet",
+  "ID": "de73a896-0d24-44a8-b9c6-db2800b5e7c4",
+  "ChannelCount": 21,
+  "Attributes": [
+    {
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": false,
+      "OtherName": "",
+      "ID": "a0af8b4d-a94d-47b5-87a6-6049e6e680fd",
+      "List": {},
+      "MasterReact": false,
+      "Text": "Pan",
+      "DefaultValue": 0.5,
+      "Invert": false,
+      "AddressFine": 2,
+      "AddressCoarse": 1,
+      "Resolution": "16Bits"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": false,
+      "OtherName": "",
+      "ID": "6b597806-3edf-4991-9471-d4ce9348d44b",
+      "List": {},
+      "MasterReact": false,
+      "Text": "Tilt",
+      "DefaultValue": 0.5,
+      "Invert": false,
+      "AddressFine": 4,
+      "AddressCoarse": 3,
+      "Resolution": "16Bits"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": false,
+      "OtherName": "",
+      "ID": "d337e90f-0942-4137-b015-4876e9476f8d",
+      "List": {},
+      "MasterReact": false,
+      "Text": "Pan/Tilt Speed",
+      "DefaultValue": 0,
+      "Invert": false,
+      "AddressFine": "",
+      "AddressCoarse": 5,
+      "Resolution": "8Bits"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": false,
+      "OtherName": "",
+      "ID": "cc9d5f4f-b2c7-4200-9d20-3dcca4ced370",
+      "List": {},
+      "MasterReact": true,
+      "Text": "Dimmer",
+      "DefaultValue": 0,
+      "Invert": false,
+      "AddressFine": 7,
+      "AddressCoarse": 6,
+      "Resolution": "16Bits"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": true,
+      "IsVirtual": false,
+      "OtherName": "Strobe",
+      "ID": "ce1dd68a-74ff-4b94-8397-537bfaf383e7",
+      "List": [
+        {
+          "ID": "58955243-ebca-4a4c-8bd5-070d9899cabc",
+          "ToValue": 0.07450980693101883,
+          "Text": "Off",
+          "FromValue": 0
+        },
+        {
+          "ID": "d26c0708-413f-4891-9fd5-340f2134ca14",
+          "ToValue": 0.0941176488995552,
+          "Text": "On 1",
+          "FromValue": 0.0784313753247261
+        },
+        {
+          "ID": "2392a17c-504b-4d9d-8cfa-9993f30346c4",
+          "ToValue": 0.250980406999588,
+          "Text": "Strobe, fast to slow",
+          "FromValue": 0.09803921729326248
+        },
+        {
+          "ID": "e6b30955-af3e-45fa-8458-4311bdad079e",
+          "ToValue": 0.2705882489681244,
+          "Text": "On 2",
+          "FromValue": 0.2549019753932953
+        },
+        {
+          "ID": "49bded94-c28b-46f1-90a4-233dc070f19f",
+          "ToValue": 0.3294117748737335,
+          "Text": "Fast on, slow off (fast to slow)",
+          "FromValue": 0.27450981736183167
+        },
+        {
+          "ID": "9e666adf-4090-4a6f-a365-9c01645dd439",
+          "ToValue": 0.3490196168422699,
+          "Text": "On 3",
+          "FromValue": 0.3333333730697632
+        },
+        {
+          "ID": "7f65669e-56f8-469c-8231-57a51924d7f3",
+          "ToValue": 0.40784314274787903,
+          "Text": "Slow on, fast off (fast to slow)",
+          "FromValue": 0.3529411554336548
+        },
+        {
+          "ID": "18409c1f-5e83-4474-9cd6-6bb11cda5716",
+          "ToValue": 0.4274509847164154,
+          "Text": "On 4",
+          "FromValue": 0.4117647111415863
+        },
+        {
+          "ID": "35e34252-4325-418f-b7e2-77b3e44ddac0",
+          "ToValue": 0.4862745404243469,
+          "Text": "Random strobe, fast to slow",
+          "FromValue": 0.4313725531101227
+        },
+        {
+          "ID": "44fd8b4e-71d1-446a-a62f-10e6c316a8dd",
+          "ToValue": 0.5058823823928833,
+          "Text": "On 5",
+          "FromValue": 0.4901960790157318
+        },
+        {
+          "ID": "47d2f831-3333-4f9b-9ace-ed410e2e5f65",
+          "ToValue": 0.5647059082984924,
+          "Text": "Random fast on, slow off (fast to slow)",
+          "FromValue": 0.5098039507865906
+        },
+        {
+          "ID": "ae66a478-ccb7-4d84-90ec-54350e362e9c",
+          "ToValue": 0.5843137502670288,
+          "Text": "On 6",
+          "FromValue": 0.5686274766921997
+        },
+        {
+          "ID": "37c6ac25-fb3d-40b0-8189-83141624d84f",
+          "ToValue": 0.6431372761726379,
+          "Text": "Random slow on, fast off (fast to slow)",
+          "FromValue": 0.5882353186607361
+        },
+        {
+          "ID": "e14b7458-c81d-4818-bb77-e85ea18148c5",
+          "ToValue": 0.6627451181411743,
+          "Text": "On 7",
+          "FromValue": 0.6470588445663452
+        },
+        {
+          "ID": "db75796a-87d2-4010-846b-728dc3e5290f",
+          "ToValue": 0.7215687036514282,
+          "Text": "Pulse strobe, fast to slow 1",
+          "FromValue": 0.6666667461395264
+        },
+        {
+          "ID": "8603e920-8ea3-46f1-9855-a448e75a796e",
+          "ToValue": 0.741176426410675,
+          "Text": "On 8",
+          "FromValue": 0.7254902124404907
+        },
+        {
+          "ID": "1a2311bd-77a6-4a1d-9e8f-6ba5dd1b53dc",
+          "ToValue": 0.800000011920929,
+          "Text": "Random pulse strobe, fast to slow",
+          "FromValue": 0.7450980544090271
+        },
+        {
+          "ID": "4921c642-8353-4aba-a05f-54254f349c94",
+          "ToValue": 0.8196078538894653,
+          "Text": "On 9",
+          "FromValue": 0.8039215803146362
+        },
+        {
+          "ID": "b5b0ba2b-68d9-470a-a59c-008b4cdb4861",
+          "ToValue": 0.8784313797950745,
+          "Text": "Slow on, slow off (fast to slow)",
+          "FromValue": 0.8235294222831726
+        },
+        {
+          "ID": "61a2babe-c941-44bf-93c9-57f5f3a92e7a",
+          "ToValue": 0.8980392217636108,
+          "Text": "On 10",
+          "FromValue": 0.8823530077934265
+        },
+        {
+          "ID": "0ab1a33b-fce8-4ed9-ab2c-269bde16977c",
+          "ToValue": 0.9568626880645752,
+          "Text": "Pulse strobe, fast to slow 2",
+          "FromValue": 0.9019607305526733
+        },
+        {
+          "ID": "9595b11f-0616-4647-84ae-e763fb5b99ea",
+          "ToValue": 1,
+          "Text": "On 11",
+          "FromValue": 0.9607843160629272
+        }
+      ],
+      "MasterReact": false,
+      "Text": "Shutter",
+      "DefaultValue": 0,
+      "Invert": false,
+      "AddressFine": "",
+      "AddressCoarse": 8,
+      "Resolution": "8Bits"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": false,
+      "OtherName": "",
+      "ID": "318b9087-feb3-4147-a061-fb00afbc2a9a",
+      "List": {},
+      "MasterReact": false,
+      "Text": "Red",
+      "DefaultValue": 1,
+      "Invert": false,
+      "AddressFine": 10,
+      "AddressCoarse": 9,
+      "Resolution": "16Bits"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": false,
+      "OtherName": "",
+      "ID": "f1edae92-e942-4ada-b7fa-b0dbfd5134fd",
+      "List": {},
+      "MasterReact": false,
+      "Text": "Green",
+      "DefaultValue": 1,
+      "Invert": false,
+      "AddressFine": 12,
+      "AddressCoarse": 11,
+      "Resolution": "16Bits"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": false,
+      "OtherName": "",
+      "ID": "33d63ec6-58af-4bb6-afa5-6ab7a411272a",
+      "List": {},
+      "MasterReact": false,
+      "Text": "Blue",
+      "DefaultValue": 1,
+      "Invert": false,
+      "AddressFine": 14,
+      "AddressCoarse": 13,
+      "Resolution": "16Bits"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": false,
+      "OtherName": "",
+      "ID": "d4d9e147-bb15-47f1-9185-cdb902f6abed",
+      "List": {},
+      "MasterReact": false,
+      "Text": "White",
+      "DefaultValue": 0,
+      "Invert": false,
+      "AddressFine": 16,
+      "AddressCoarse": 15,
+      "Resolution": "16Bits"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": true,
+      "IsVirtual": false,
+      "OtherName": "Color",
+      "ID": "e77bc6b4-50dc-4631-9ac5-47c85bf64e99",
+      "List": [
+        {
+          "ID": "5cdd61af-b729-43d4-bd65-6aee4c8fea04",
+          "ToValue": 0.01568627543747425,
+          "Text": "No function",
+          "FromValue": 0
+        },
+        {
+          "ID": "4c445ed3-53f3-4ed1-a363-ce40cb88511c",
+          "ToValue": 0.03529411926865578,
+          "Text": "Color 1",
+          "FromValue": 0.019607843831181526
+        },
+        {
+          "ID": "054285b9-9eab-4914-8cf9-47282868abb9",
+          "ToValue": 0.054901961237192154,
+          "Text": "Color 2",
+          "FromValue": 0.03921568766236305
+        },
+        {
+          "ID": "1fb0372f-7c9c-49d4-bd52-1ff911566bc9",
+          "ToValue": 0.07450980693101883,
+          "Text": "Color 3",
+          "FromValue": 0.05882352963089943
+        },
+        {
+          "ID": "e9e33275-3dcd-467f-8c48-3a42d7de927a",
+          "ToValue": 0.0941176488995552,
+          "Text": "Color 4",
+          "FromValue": 0.0784313753247261
+        },
+        {
+          "ID": "dff8109d-9994-4c6e-8f06-55053c70e697",
+          "ToValue": 0.11372549086809158,
+          "Text": "Color 5",
+          "FromValue": 0.09803921729326248
+        },
+        {
+          "ID": "b99936ce-9ccf-4c3a-addb-b96ef849aaf8",
+          "ToValue": 0.13333334028720856,
+          "Text": "Color 6",
+          "FromValue": 0.11764705926179886
+        },
+        {
+          "ID": "483e22bb-89ff-4988-8de8-40ed12d6c150",
+          "ToValue": 0.15294118225574493,
+          "Text": "Color 7",
+          "FromValue": 0.13725490868091583
+        },
+        {
+          "ID": "15039b57-1d65-4e99-b935-3aaac78267fe",
+          "ToValue": 0.1725490242242813,
+          "Text": "Color 8",
+          "FromValue": 0.1568627506494522
+        },
+        {
+          "ID": "01165ed9-76e8-41d6-bf30-7155f0fcccc9",
+          "ToValue": 0.1921568661928177,
+          "Text": "Color 9",
+          "FromValue": 0.1764705777168274
+        },
+        {
+          "ID": "008b24b5-58ef-4ed9-bb4f-6f972b058302",
+          "ToValue": 0.21176472306251526,
+          "Text": "Color 10",
+          "FromValue": 0.19607843458652496
+        },
+        {
+          "ID": "84d85014-80c1-4ec3-97cd-e8a39abf925d",
+          "ToValue": 0.23137255012989044,
+          "Text": "Color 11",
+          "FromValue": 0.21568627655506134
+        },
+        {
+          "ID": "cbfc110f-73a3-45ca-b2a2-616ccdb67a14",
+          "ToValue": 0.250980406999588,
+          "Text": "Color 12",
+          "FromValue": 0.23529411852359772
+        },
+        {
+          "ID": "2390f5f8-0962-4624-8049-d59eb0ca1189",
+          "ToValue": 0.2705882489681244,
+          "Text": "Color 13",
+          "FromValue": 0.2549019753932953
+        },
+        {
+          "ID": "60af615d-1e9b-4290-989a-d8a9f50a3cd3",
+          "ToValue": 0.29019609093666077,
+          "Text": "Color 14",
+          "FromValue": 0.27450981736183167
+        },
+        {
+          "ID": "e79c0b74-6a1e-403c-a50e-b4c033802867",
+          "ToValue": 0.30980393290519714,
+          "Text": "Color 15",
+          "FromValue": 0.29411765933036804
+        },
+        {
+          "ID": "d062b562-5755-48b7-93f2-573deb6b4727",
+          "ToValue": 0.3294117748737335,
+          "Text": "Color 16",
+          "FromValue": 0.3137255012989044
+        },
+        {
+          "ID": "56074508-dca8-4af7-bbab-e866c3416561",
+          "ToValue": 0.3490196168422699,
+          "Text": "Color 17",
+          "FromValue": 0.3333333730697632
+        },
+        {
+          "ID": "771c2ad6-3dc5-4103-a697-e639e893a7c4",
+          "ToValue": 0.3686274588108063,
+          "Text": "Color 18",
+          "FromValue": 0.3529411554336548
+        },
+        {
+          "ID": "98af2400-6229-40ec-b579-6c2385b7c708",
+          "ToValue": 0.38823527097702026,
+          "Text": "Color 19",
+          "FromValue": 0.37254902720451355
+        },
+        {
+          "ID": "e7a34cf6-33d7-4a05-8ff8-d18db69ba4d9",
+          "ToValue": 0.40784314274787903,
+          "Text": "Color 20",
+          "FromValue": 0.3921568691730499
+        },
+        {
+          "ID": "6ad8225a-e57a-4038-bd3c-a4338cd0cf20",
+          "ToValue": 0.4274509847164154,
+          "Text": "Color 21",
+          "FromValue": 0.4117647111415863
+        },
+        {
+          "ID": "da66c1e5-ddc3-4aca-a76b-8b49e7cf6d9b",
+          "ToValue": 0.4470588266849518,
+          "Text": "Color 22",
+          "FromValue": 0.4313725531101227
+        },
+        {
+          "ID": "fc880a6d-4997-4eb6-9a3c-358105457ec7",
+          "ToValue": 0.46666666865348816,
+          "Text": "Color 23",
+          "FromValue": 0.45098036527633667
+        },
+        {
+          "ID": "6b950231-260c-4c78-8d38-fdd8846b1900",
+          "ToValue": 0.4862745404243469,
+          "Text": "Color 24",
+          "FromValue": 0.47058823704719543
+        },
+        {
+          "ID": "2a3fd685-c30c-42d2-ae74-0161ff3d0c2d",
+          "ToValue": 0.5058823823928833,
+          "Text": "Color 25",
+          "FromValue": 0.4901960790157318
+        },
+        {
+          "ID": "f003abb6-bc65-48a2-ae4c-9d827dab3a85",
+          "ToValue": 0.5254902243614197,
+          "Text": "Color 26",
+          "FromValue": 0.5098039507865906
+        },
+        {
+          "ID": "acfe7bc6-5c02-4555-aeb7-5d1cfb14af35",
+          "ToValue": 0.545098066329956,
+          "Text": "Color 27",
+          "FromValue": 0.529411792755127
+        },
+        {
+          "ID": "0337f8b3-96b1-4cf8-918a-8b85621241ab",
+          "ToValue": 0.5647059082984924,
+          "Text": "Color 28",
+          "FromValue": 0.5490196347236633
+        },
+        {
+          "ID": "a9d0caf2-2ef9-43d2-b376-6d6473939ce8",
+          "ToValue": 0.5843137502670288,
+          "Text": "Color 29",
+          "FromValue": 0.5686274766921997
+        },
+        {
+          "ID": "7de0ada3-207d-407d-a147-d3a1582a1781",
+          "ToValue": 0.6039215922355652,
+          "Text": "Color 30",
+          "FromValue": 0.5882353186607361
+        },
+        {
+          "ID": "de75d51a-ac5f-45c4-8476-483e60e653cf",
+          "ToValue": 0.6235294342041016,
+          "Text": "Color 31",
+          "FromValue": 0.6078431606292725
+        },
+        {
+          "ID": "bbf6e92d-36bb-49f0-b976-599601931063",
+          "ToValue": 0.6431372761726379,
+          "Text": "Color 32",
+          "FromValue": 0.6274510025978088
+        },
+        {
+          "ID": "0e4c903d-d1bb-401e-b57b-c2b863d18cdd",
+          "ToValue": 0.6627451181411743,
+          "Text": "Color 33",
+          "FromValue": 0.6470588445663452
+        },
+        {
+          "ID": "48a59fbe-fa09-4d5b-a608-87e54b658fe3",
+          "ToValue": 0.6823529601097107,
+          "Text": "Color 34",
+          "FromValue": 0.6666667461395264
+        },
+        {
+          "ID": "44d1e3e8-3f7c-406b-9a22-73efc29e6d14",
+          "ToValue": 0.7019608020782471,
+          "Text": "No function 2",
+          "FromValue": 0.6862745881080627
+        },
+        {
+          "ID": "4a5f8a8b-94ef-41d3-92aa-aceadfe00dda",
+          "ToValue": 0.7882353067398071,
+          "Text": "Color scroll, fast to slow",
+          "FromValue": 0.7058823108673096
+        },
+        {
+          "ID": "c984af3d-f67b-4cde-8121-1f6b822bd884",
+          "ToValue": 0.811764657497406,
+          "Text": "Hold",
+          "FromValue": 0.7921569347381592
+        },
+        {
+          "ID": "c63ca2c4-862b-42fd-b239-185edb951bc5",
+          "ToValue": 0.8980392217636108,
+          "Text": "Reverse color scroll, fast to slow",
+          "FromValue": 0.8156862854957581
+        },
+        {
+          "ID": "bb5fa071-48d8-42a5-8109-82c810b3dfe0",
+          "ToValue": 0.917647123336792,
+          "Text": "No function 3",
+          "FromValue": 0.9019607305526733
+        },
+        {
+          "ID": "1c30ed75-5ad4-4a88-9568-26260d420bca",
+          "ToValue": 0.9764705896377563,
+          "Text": "Color snap, fast to slow",
+          "FromValue": 0.9215686321258545
+        },
+        {
+          "ID": "fcd1fc51-0b9d-4f5e-b0a0-9015d0e30574",
+          "ToValue": 1,
+          "Text": "No function 4",
+          "FromValue": 0.9686274528503418
+        }
+      ],
+      "MasterReact": false,
+      "Text": "Colorwheel1",
+      "DefaultValue": 0,
+      "Invert": false,
+      "AddressFine": "",
+      "AddressCoarse": 17,
+      "Resolution": "8Bits"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": false,
+      "OtherName": "",
+      "ID": "e0649bed-8796-433c-a53f-496372428b80",
+      "List": {},
+      "MasterReact": false,
+      "Text": "Zoom",
+      "DefaultValue": 0.5,
+      "Invert": false,
+      "AddressFine": "",
+      "AddressCoarse": 18,
+      "Resolution": "8Bits"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": true,
+      "IsVirtual": false,
+      "OtherName": "Movement Macros",
+      "ID": "8b9babdb-382f-4d75-879b-15c8da016679",
+      "List": [
+        {
+          "ID": "e53fb8b1-4fcf-4f3c-a0e1-dbbacb28e23f",
+          "ToValue": 0.027450980618596077,
+          "Text": "No function",
+          "FromValue": 0
+        },
+        {
+          "ID": "af788bd8-428a-474d-b653-2cf0a1025b03",
+          "ToValue": 0.09019608795642853,
+          "Text": "Movement macro 1",
+          "FromValue": 0.0313725508749485
+        },
+        {
+          "ID": "3c5ff67e-9244-4632-8d8c-83e1b7a87fb4",
+          "ToValue": 0.15294118225574493,
+          "Text": "Movement macro 2",
+          "FromValue": 0.0941176488995552
+        },
+        {
+          "ID": "57b2bc1b-8c53-4a14-8ad9-db5c6f26b127",
+          "ToValue": 0.21568627655506134,
+          "Text": "Movement macro 3",
+          "FromValue": 0.1568627506494522
+        },
+        {
+          "ID": "924f1d25-7f81-44fc-aee1-07fa683419e3",
+          "ToValue": 0.27843138575553894,
+          "Text": "Movement macro 4",
+          "FromValue": 0.21960784494876862
+        },
+        {
+          "ID": "eacaca53-3d07-487a-912b-5f834d2bc31d",
+          "ToValue": 0.34117648005485535,
+          "Text": "Movement macro 5",
+          "FromValue": 0.2823529541492462
+        },
+        {
+          "ID": "915ce4b5-d023-4b84-992e-7965b193fd07",
+          "ToValue": 0.40392157435417175,
+          "Text": "Movement macro 6",
+          "FromValue": 0.3450980484485626
+        },
+        {
+          "ID": "f97a5f42-ff6d-45dc-b54f-4050f7f6a368",
+          "ToValue": 0.46666666865348816,
+          "Text": "Movement macro 7",
+          "FromValue": 0.40784314274787903
+        },
+        {
+          "ID": "e36bd3e6-4652-48db-a841-c8da60b85a36",
+          "ToValue": 0.529411792755127,
+          "Text": "Movement macro 8",
+          "FromValue": 0.47058823704719543
+        },
+        {
+          "ID": "a1b0b377-01bc-47ec-a96b-841eacea8a91",
+          "ToValue": 0.5921568870544434,
+          "Text": "Movement macro 9",
+          "FromValue": 0.5333333611488342
+        },
+        {
+          "ID": "8e778d4f-9643-4bdf-a96e-4058c35a78ef",
+          "ToValue": 0.6549019813537598,
+          "Text": "Movement macro 10",
+          "FromValue": 0.5960784554481506
+        },
+        {
+          "ID": "aadfad9a-ec73-42cf-b27e-d9f1975df7f0",
+          "ToValue": 0.7176470756530762,
+          "Text": "Movement macro 11",
+          "FromValue": 0.658823549747467
+        },
+        {
+          "ID": "742866bb-41b0-4dc5-b85f-bc4a018af0f2",
+          "ToValue": 0.7803921699523926,
+          "Text": "Movement macro 12",
+          "FromValue": 0.7215687036514282
+        },
+        {
+          "ID": "2cacf1ef-5ffc-48c5-ab90-02e04e3012e3",
+          "ToValue": 0.843137264251709,
+          "Text": "Movement macro 13",
+          "FromValue": 0.7843137383460999
+        },
+        {
+          "ID": "7af4be15-1df4-4956-9238-ef609ca1be92",
+          "ToValue": 0.9058823585510254,
+          "Text": "Movement macro 14",
+          "FromValue": 0.847058892250061
+        },
+        {
+          "ID": "af51e9df-ebe7-4729-a0c3-1295bc4a0af3",
+          "ToValue": 0.9686274528503418,
+          "Text": "Movement macro 15",
+          "FromValue": 0.9098039269447327
+        },
+        {
+          "ID": "39d17142-1f36-4f8f-81c9-c162a0497a86",
+          "ToValue": 1,
+          "Text": "Movement macro 16",
+          "FromValue": 0.9725490808486938
+        }
+      ],
+      "MasterReact": false,
+      "Text": "Other1",
+      "DefaultValue": 0,
+      "Invert": false,
+      "AddressFine": "",
+      "AddressCoarse": 19,
+      "Resolution": "8Bits"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": false,
+      "OtherName": "Movement Macro Speed",
+      "ID": "ed8147b3-d8c0-4a1c-b812-958f2ede9e9a",
+      "List": {},
+      "MasterReact": false,
+      "Text": "Other2",
+      "DefaultValue": 0,
+      "Invert": false,
+      "AddressFine": "",
+      "AddressCoarse": 20,
+      "Resolution": "8Bits"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": true,
+      "IsVirtual": false,
+      "OtherName": "5 second activation delay",
+      "ID": "945e633f-1556-42c7-bdc3-572ab9448db3",
+      "List": [
+        {
+          "ID": "046954a6-56fd-48dd-9b96-3c82654f0e9e",
+          "ToValue": 0.03529411926865578,
+          "Text": "No function 1",
+          "FromValue": 0
+        },
+        {
+          "ID": "08783c0f-5d95-4066-bc5b-6e6ad606c652",
+          "ToValue": 0.054901961237192154,
+          "Text": "Blackout during pan/tilt",
+          "FromValue": 0.03921568766236305
+        },
+        {
+          "ID": "5e16b34a-87da-4767-a882-2da3b9684dca",
+          "ToValue": 0.1921568661928177,
+          "Text": "No function 2",
+          "FromValue": 0.05882352963089943
+        },
+        {
+          "ID": "c7d0fc5f-0d14-4404-96fe-f9677828fb54",
+          "ToValue": 0.21176472306251526,
+          "Text": "Pan reset",
+          "FromValue": 0.19607843458652496
+        },
+        {
+          "ID": "0af1d65f-fede-4935-9627-05c914d9e1c1",
+          "ToValue": 0.23137255012989044,
+          "Text": "Tilt reset",
+          "FromValue": 0.21568627655506134
+        },
+        {
+          "ID": "87eded3e-190b-49bf-b959-a612ade53d00",
+          "ToValue": 0.250980406999588,
+          "Text": "Zoom reset",
+          "FromValue": 0.23529411852359772
+        },
+        {
+          "ID": "a0094ec7-87ef-4e23-84db-169e5cb788fb",
+          "ToValue": 0.2705882489681244,
+          "Text": "No function 3",
+          "FromValue": 0.2549019753932953
+        },
+        {
+          "ID": "67cd7dad-9443-431a-8fa2-20f5b9c75d8c",
+          "ToValue": 0.29019609093666077,
+          "Text": "Reset all",
+          "FromValue": 0.27450981736183167
+        },
+        {
+          "ID": "44b70750-e7e9-4d35-8c07-05ba71554bc4",
+          "ToValue": 0.30980393290519714,
+          "Text": "No function 4",
+          "FromValue": 0.29411765933036804
+        },
+        {
+          "ID": "2b666c4e-f54d-4104-b594-19f45228c3f7",
+          "ToValue": 0.3294117748737335,
+          "Text": "Reverse pan and tilt movement",
+          "FromValue": 0.3137255012989044
+        },
+        {
+          "ID": "213f2b48-d8ea-4812-a480-fababe7996d7",
+          "ToValue": 0.3490196168422699,
+          "Text": "Reverse pan movement",
+          "FromValue": 0.3333333730697632
+        },
+        {
+          "ID": "3fac8a0d-bd22-4b07-a677-400f52cd7228",
+          "ToValue": 0.3686274588108063,
+          "Text": "Reverse tilt movement",
+          "FromValue": 0.3529411554336548
+        },
+        {
+          "ID": "afb2d11a-b4e2-4dd3-bb97-00906a76d88d",
+          "ToValue": 0.38823527097702026,
+          "Text": "Normal pan movement",
+          "FromValue": 0.37254902720451355
+        },
+        {
+          "ID": "3dd9f4f9-92a1-428f-a904-c373fe75c002",
+          "ToValue": 0.40784314274787903,
+          "Text": "Normal tilt movement",
+          "FromValue": 0.3921568691730499
+        },
+        {
+          "ID": "f67a3b90-078f-40f3-9f8e-2126f4ea9e5b",
+          "ToValue": 0.4274509847164154,
+          "Text": "Normal pan and tilt movement",
+          "FromValue": 0.4117647111415863
+        },
+        {
+          "ID": "0e72452e-7182-4776-9844-e14412d80c5a",
+          "ToValue": 0.46666666865348816,
+          "Text": "No function 5",
+          "FromValue": 0.4313725531101227
+        },
+        {
+          "ID": "e9b34623-9d2d-4827-a2c8-28bcf5b9896a",
+          "ToValue": 0.4862745404243469,
+          "Text": "Fan ECO mode",
+          "FromValue": 0.47058823704719543
+        },
+        {
+          "ID": "35954791-de37-4ef0-9c17-9e59fd7b264f",
+          "ToValue": 0.5058823823928833,
+          "Text": "Fan full speed",
+          "FromValue": 0.4901960790157318
+        },
+        {
+          "ID": "f4626d37-b65f-4f0f-bc43-903e3bc6dc3f",
+          "ToValue": 0.5254902243614197,
+          "Text": "Fan auto mode",
+          "FromValue": 0.5098039507865906
+        },
+        {
+          "ID": "a64006d3-5020-4f82-8b9a-4523ee2a82cb",
+          "ToValue": 0.545098066329956,
+          "Text": "Fast dimmer",
+          "FromValue": 0.529411792755127
+        },
+        {
+          "ID": "bd9d819b-1a59-4b69-bb00-8781cf0a9c00",
+          "ToValue": 0.5647059082984924,
+          "Text": "Smooth dimmer",
+          "FromValue": 0.5490196347236633
+        },
+        {
+          "ID": "5996cfcf-d782-489e-a487-9e72c7cbdea6",
+          "ToValue": 0.5843137502670288,
+          "Text": "Linear dimmer curve",
+          "FromValue": 0.5686274766921997
+        },
+        {
+          "ID": "40a0dfcf-5d14-42b6-aa60-8f98dd702ae1",
+          "ToValue": 0.6039215922355652,
+          "Text": "Square dimmer curve",
+          "FromValue": 0.5882353186607361
+        },
+        {
+          "ID": "60aff57e-c469-4d92-9c9c-d93e57d88463",
+          "ToValue": 0.6235294342041016,
+          "Text": "Inverse square dimmer curve",
+          "FromValue": 0.5960784554481506
+        },
+        {
+          "ID": "bb87a698-0f19-4e2b-8472-8af915504f08",
+          "ToValue": 0.6431372761726379,
+          "Text": "S-curve dimmer curve",
+          "FromValue": 0.6274510025978088
+        },
+        {
+          "ID": "a77f9f17-a170-44a3-898d-d92fca535b33",
+          "ToValue": 0.6627451181411743,
+          "Text": "White mode on",
+          "FromValue": 0.6470588445663452
+        },
+        {
+          "ID": "df111af9-53bb-4eec-a05e-8c7f9a2a4bb1",
+          "ToValue": 0.6823529601097107,
+          "Text": "White mode off",
+          "FromValue": 0.6666667461395264
+        },
+        {
+          "ID": "9649680f-9901-4a89-846e-eb14ef4620ab",
+          "ToValue": 1,
+          "Text": "No function 6",
+          "FromValue": 0.6862745881080627
+        }
+      ],
+      "MasterReact": false,
+      "Text": "Control",
+      "DefaultValue": 0,
+      "Invert": false,
+      "AddressFine": "",
+      "AddressCoarse": 21,
+      "Resolution": "8Bits"
+    }
+  ]
+}
