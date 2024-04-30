@@ -1,0 +1,992 @@
+{
+  "Text": "Chauvet, Rogue R1X Spot (19ch)",
+  "Model": "Rogue R1X Spot",
+  "Mode": "19ch",
+  "Manufacturer": "Chauvet",
+  "ID": "a7509cc8-4ebf-4e82-93d3-cdff9644d063",
+  "ChannelCount": 19,
+  "Attributes": [
+    {
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": false,
+      "ID": "a00e449b-db73-4b77-bb19-6b995236c8fc",
+      "AddressCoarse": 1,
+      "List": {},
+      "MasterReact": false,
+      "OtherName": "",
+      "DefaultValue": 0.5,
+      "Invert": false,
+      "Resolution": "16Bits",
+      "AddressFine": 2,
+      "Text": "Pan"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": false,
+      "ID": "52a71b82-f2eb-4461-ba2e-d932d728b649",
+      "AddressCoarse": 3,
+      "List": {},
+      "MasterReact": false,
+      "OtherName": "",
+      "DefaultValue": 0.5,
+      "Invert": false,
+      "Resolution": "16Bits",
+      "AddressFine": 4,
+      "Text": "Tilt"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": false,
+      "ID": "acb715d0-8a61-4fe8-975d-574f4b93cd68",
+      "AddressCoarse": 5,
+      "List": {},
+      "MasterReact": false,
+      "OtherName": "",
+      "DefaultValue": 0,
+      "Invert": false,
+      "Resolution": "8Bits",
+      "AddressFine": "",
+      "Text": "Pan/Tilt Speed"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": false,
+      "ID": "e0f9083d-aa3d-411b-9f45-2bdb9b4200cd",
+      "AddressCoarse": 6,
+      "List": {},
+      "MasterReact": true,
+      "OtherName": "",
+      "DefaultValue": 0,
+      "Invert": false,
+      "Resolution": "16Bits",
+      "AddressFine": 7,
+      "Text": "Dimmer"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": true,
+      "IsVirtual": false,
+      "ID": "af6e0f9c-9236-4061-ad1c-abc8a2bbc0da",
+      "AddressCoarse": 8,
+      "List": [
+        {
+          "Text": "Closed",
+          "ID": "164f0433-29ef-43ca-ae7e-a2a96f898465",
+          "ToValue": 0.0117647061124444,
+          "FromValue": 0
+        },
+        {
+          "Text": "Open",
+          "ID": "0c316913-2a79-4b7a-9d93-fe6f2e97ab04",
+          "ToValue": 0.02745098061859608,
+          "FromValue": 0.01568627543747425
+        },
+        {
+          "Text": "Synhronized strobe, slow to fast",
+          "ID": "a7509cc8-4ebf-4e82-93d3-cdff9644d061",
+          "ToValue": 0.2980392277240753,
+          "FromValue": 0.0313725508749485
+        },
+        {
+          "Text": "Pulse effect, slow to fast",
+          "ID": "a00e449b-db73-4b77-bb19-6b995236c8fc",
+          "ToValue": 0.5686274766921997,
+          "FromValue": 0.3019607961177826
+        },
+        {
+          "Text": "Random effect, slow to fast",
+          "ID": "52a71b82-f2eb-4461-ba2e-d932d728b649",
+          "ToValue": 0.843137264251709,
+          "FromValue": 0.572549045085907
+        },
+        {
+          "Text": "Open2",
+          "ID": "e0f9083d-aa3d-411b-9f45-2bdb9b4200cd",
+          "ToValue": 1,
+          "FromValue": 0.847058892250061
+        }
+      ],
+      "MasterReact": false,
+      "OtherName": "",
+      "DefaultValue": 0.0235294122248888,
+      "Invert": false,
+      "Resolution": "8Bits",
+      "AddressFine": "",
+      "Text": "Shutter"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": true,
+      "IsVirtual": false,
+      "ID": "318017ca-8163-4b46-898a-28fbe352f7f1",
+      "AddressCoarse": 9,
+      "List": [
+        {
+          "ID": "a00e449b-db73-4b77-bb19-6b995236c8fc",
+          "Text": "Open",
+          "ToValue": 0.0235294122248888,
+          "FromValue": 0
+        },
+        {
+          "ID": "52a71b82-f2eb-4461-ba2e-d932d728b649",
+          "Text": "Red",
+          "ToValue": 0.05098039284348488,
+          "FromValue": 0.027450980618596077
+        },
+        {
+          "ID": "acb715d0-8a61-4fe8-975d-574f4b93cd68",
+          "Text": "Orange",
+          "ToValue": 0.0784313753247261,
+          "FromValue": 0.054901961237192154
+        },
+        {
+          "ID": "e0f9083d-aa3d-411b-9f45-2bdb9b4200cd",
+          "Text": "Green",
+          "ToValue": 0.10588236153125764,
+          "FromValue": 0.08235294371843338
+        },
+        {
+          "ID": "318017ca-8163-4b46-898a-28fbe352f7f1",
+          "Text": "Yellow",
+          "ToValue": 0.13333334028720856,
+          "FromValue": 0.10980392247438432
+        },
+        {
+          "ID": "a17e0e43-c63a-4977-aadd-9b962b8e339b",
+          "Text": "Blue",
+          "ToValue": 0.16078431904315948,
+          "FromValue": 0.13725490868091583
+        },
+        {
+          "ID": "9571b99b-c29d-4e9b-8af5-9421ddb2511a",
+          "Text": "CTO 3200K",
+          "ToValue": 0.1882352977991104,
+          "FromValue": 0.16470588743686676
+        },
+        {
+          "ID": "d8764782-5b5d-4fdb-9f21-c89f1ea51834",
+          "Text": "Magenta",
+          "ToValue": 0.21568627655506137,
+          "FromValue": 0.1921568661928177
+        },
+        {
+          "ID": "e8a1767c-86b8-4960-a19d-7b76c85fa252",
+          "Text": "UV",
+          "ToValue": 0.24705882370471952,
+          "FromValue": 0.21960784494876864
+        },
+        {
+          "ID": "bf9050a2-dd9b-4d02-a931-29555acc89ce",
+          "Text": "Split colors",
+          "ToValue": 0.4980392158031464,
+          "FromValue": 0.250980406999588
+        },
+        {
+          "ID": "2a642d16-9483-441c-84ce-cb95d3d338f0",
+          "Text": "Clockwise color scroll, slow to fast",
+          "ToValue": 0.7490196228027344,
+          "FromValue": 0.501960813999176
+        },
+        {
+          "ID": "18614e32-2e10-405e-96fd-8db6408f6394",
+          "Text": "Counterclockwise color scroll, fast to slow",
+          "ToValue": 1,
+          "FromValue": 0.7529411911964417
+        }
+      ],
+      "MasterReact": false,
+      "OtherName": "",
+      "DefaultValue": 0,
+      "Invert": false,
+      "Resolution": "8Bits",
+      "AddressFine": "",
+      "Text": "Colorwheel1"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": true,
+      "IsVirtual": false,
+      "ID": "a17e0e43-c63a-4977-aadd-9b962b8e339b",
+      "AddressCoarse": 10,
+      "List": [
+        {
+          "ID": "af6e0f9c-9236-4061-ad1c-abc8a2bbc0da",
+          "Text": "Open",
+          "ToValue": 0.027450980618596077,
+          "FromValue": 0
+        },
+        {
+          "ID": "b18f042f-94e5-4b32-88e1-e71c2fcd370c",
+          "Text": "Gobo 1 (tribal breakup)",
+          "ToValue": 0.05882352963089943,
+          "FromValue": 0.0313725508749485
+        },
+        {
+          "ID": "164f0433-29ef-43ca-ae7e-a2a96f898465",
+          "Text": "Gobo2 (shaltered)",
+          "ToValue": 0.09019608795642851,
+          "FromValue": 0.062745101749897
+        },
+        {
+          "ID": "0c316913-2a79-4b7a-9d93-fe6f2e97ab04",
+          "Text": "Gobo3 (stick men)",
+          "ToValue": 0.12156863510608672,
+          "FromValue": 0.0941176488995552
+        },
+        {
+          "ID": "46ebbe66-e469-45bb-ab23-4ae581e38a7b",
+          "Text": "Gobo4 (linear ovale)",
+          "ToValue": 0.1529411822557449,
+          "FromValue": 0.125490203499794
+        },
+        {
+          "ID": "111054b2-61ab-43b9-a818-0f7fb8ab560c",
+          "Text": "Gobo5 (laser triangle)",
+          "ToValue": 0.1843137294054031,
+          "FromValue": 0.1568627506494522
+        },
+        {
+          "ID": "204c3570-789c-465d-b9f0-9d644096007d",
+          "Text": "Gobo6 (line)",
+          "ToValue": 0.21568627655506137,
+          "FromValue": 0.1882352977991104
+        },
+        {
+          "ID": "e6b9ce99-1c79-499d-a504-53c5d1bae28e",
+          "Text": "Gobo7 (thatched breakup)",
+          "ToValue": 0.24705882370471952,
+          "FromValue": 0.21960784494876864
+        },
+        {
+          "ID": "cf3ecfde-a294-44bc-8b71-cd1497c3bf0a",
+          "Text": "Gobo7 shaking, slow to fast",
+          "ToValue": 0.27843138575553894,
+          "FromValue": 0.250980406999588
+        },
+        {
+          "ID": "b214ad85-c3a3-43f4-8c20-05a56618b5ae",
+          "Text": "Gobo6 shaking, slow to fast",
+          "ToValue": 0.30980393290519714,
+          "FromValue": 0.2823529541492462
+        },
+        {
+          "ID": "890746d7-19bc-4dd4-babd-cdee8715d620",
+          "Text": "Gobo5 shaking, slow to fast",
+          "ToValue": 0.34117648005485535,
+          "FromValue": 0.3137255012989044
+        },
+        {
+          "ID": "ac116ac2-2050-4fa0-ba60-36ac0d2a8f73",
+          "Text": "Gobo4 shaking, slow to fast",
+          "ToValue": 0.3725490272045135,
+          "FromValue": 0.3450980484485626
+        },
+        {
+          "ID": "4c5791fc-27bf-4ca9-bb49-48b387fac97c",
+          "Text": "Gobo3 shaking, slow to fast",
+          "ToValue": 0.40392157435417175,
+          "FromValue": 0.3764705955982208
+        },
+        {
+          "ID": "bf3ae9e8-77ef-4243-afa0-a08870f2902a",
+          "Text": "Gobo2 shaking, slow to fast",
+          "ToValue": 0.4352941215038299,
+          "FromValue": 0.40784314274787903
+        },
+        {
+          "ID": "55a663a2-78c6-4056-8dbe-aa8bbf751ed7",
+          "Text": "Gobo1 shaking, slow to fast",
+          "ToValue": 0.46666666865348816,
+          "FromValue": 0.4392156898975372
+        },
+        {
+          "ID": "1dc06e12-3191-499b-aea4-c6fc326293f3",
+          "Text": "Open2",
+          "ToValue": 0.4980392158031464,
+          "FromValue": 0.47058823704719543
+        },
+        {
+          "ID": "64130cce-076c-477b-881e-ed07abc4ec38",
+          "Text": "Clockwise scroll, slow to fast",
+          "ToValue": 0.7490196228027344,
+          "FromValue": 0.501960813999176
+        },
+        {
+          "ID": "08cb0b8e-ec46-470a-8cc3-20a05bc6fa47",
+          "Text": "Counterclockwise scroll, fast to slow",
+          "ToValue": 1,
+          "FromValue": 0.7529411911964417
+        }
+      ],
+      "MasterReact": false,
+      "OtherName": "Rotating gobo wheel",
+      "DefaultValue": 0,
+      "Invert": false,
+      "Resolution": "8Bits",
+      "AddressFine": "",
+      "Text": "Gobo1"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": true,
+      "IsVirtual": false,
+      "ID": "9571b99b-c29d-4e9b-8af5-9421ddb2511a",
+      "AddressCoarse": 11,
+      "List": [
+        {
+          "ID": "d1122e45-d0d3-4e44-83dd-ed9022572e98",
+          "Text": "Rotation gobo index",
+          "ToValue": 0.24705882370471952,
+          "FromValue": 0
+        },
+        {
+          "ID": "e8bffdd2-542f-4bb0-adbd-1b6aee0c7036",
+          "Text": "Clockwise rotation, slow to fast",
+          "ToValue": 0.5764706134796143,
+          "FromValue": 0.250980406999588
+        },
+        {
+          "ID": "2e83ce30-c38c-4d58-bda3-d5508615e3f2",
+          "Text": "Counterclockwise rotation, fast to slow",
+          "ToValue": 0.7490196228027344,
+          "FromValue": 0.5803921818733215
+        },
+        {
+          "ID": "de73a896-0d24-44a8-b9c6-db2800b5e7c0",
+          "Text": "Bounce effect, slow to fast",
+          "ToValue": 1,
+          "FromValue": 0.7529411911964417
+        }
+      ],
+      "MasterReact": false,
+      "OtherName": "",
+      "DefaultValue": 0,
+      "Invert": false,
+      "Resolution": "8Bits",
+      "AddressFine": "",
+      "Text": "Gobo Rotation1"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": true,
+      "IsVirtual": false,
+      "ID": "d8764782-5b5d-4fdb-9f21-c89f1ea51834",
+      "AddressCoarse": 12,
+      "List": [
+        {
+          "ID": "a0af8b4d-a94d-47b5-87a6-6049e6e680fd",
+          "Text": "Open",
+          "ToValue": 0,
+          "FromValue": 0
+        },
+        {
+          "ID": "6b597806-3edf-4991-9471-d4ce9348d44b",
+          "Text": "Gobo 1 (dots breakup)",
+          "ToValue": 0.05098039284348488,
+          "FromValue": 0.027450980618596077
+        },
+        {
+          "ID": "d337e90f-0942-4137-b015-4876e9476f8d",
+          "Text": "Gobo 2 (bricks)",
+          "ToValue": 0.0784313753247261,
+          "FromValue": 0.054901961237192154
+        },
+        {
+          "ID": "cc9d5f4f-b2c7-4200-9d20-3dcca4ced370",
+          "Text": "Gobo 3 (triangle rays)",
+          "ToValue": 0.10588236153125764,
+          "FromValue": 0.08235294371843338
+        },
+        {
+          "ID": "105b6242-b208-45c2-b202-d3958adef128",
+          "Text": "Gobo 4 (grouped ovals)",
+          "ToValue": 0.13333334028720856,
+          "FromValue": 0.10980392247438432
+        },
+        {
+          "ID": "ce1dd68a-74ff-4b94-8397-537bfaf383e7",
+          "Text": "Gobo 5 (triangle breakup)",
+          "ToValue": 0.16078431904315948,
+          "FromValue": 0.13725490868091583
+        },
+        {
+          "ID": "58955243-ebca-4a4c-8bd5-070d9899cabc",
+          "Text": "Gobo 6 (foliage breakup)",
+          "ToValue": 0.1882352977991104,
+          "FromValue": 0.16470588743686676
+        },
+        {
+          "ID": "d26c0708-413f-4891-9fd5-340f2134ca14",
+          "Text": "Gobo 7 (circle dot)",
+          "ToValue": 0.21568627655506137,
+          "FromValue": 0.1921568661928177
+        },
+        {
+          "ID": "2392a17c-504b-4d9d-8cfa-9993f30346c4",
+          "Text": "Gobo 8 (mosaic breakup)",
+          "ToValue": 0.24705882370471952,
+          "FromValue": 0.21960784494876864
+        },
+        {
+          "ID": "e6b30955-af3e-45fa-8458-4311bdad079e",
+          "Text": "Gobo 8 shaking, slow to fast",
+          "ToValue": 0.27843138575553894,
+          "FromValue": 0.250980406999588
+        },
+        {
+          "ID": "49bded94-c28b-46f1-90a4-233dc070f19f",
+          "Text": "Gobo 7 shaking, slow to fast",
+          "ToValue": 0.30980393290519714,
+          "FromValue": 0.2823529541492462
+        },
+        {
+          "ID": "9e666adf-4090-4a6f-a365-9c01645dd439",
+          "Text": "Gobo 6 shaking, slow to fast",
+          "ToValue": 0.3333333730697632,
+          "FromValue": 0.3137255012989044
+        },
+        {
+          "ID": "7f65669e-56f8-469c-8231-57a51924d7f3",
+          "Text": "Gobo 5 shaking, slow to fast",
+          "ToValue": 0.3607843518257141,
+          "FromValue": 0.33725491166114807
+        },
+        {
+          "ID": "18409c1f-5e83-4474-9cd6-6bb11cda5716",
+          "Text": "Gobo 4 shaking, slow to fast",
+          "ToValue": 0.38823527097702026,
+          "FromValue": 0.364705890417099
+        },
+        {
+          "ID": "35e34252-4325-418f-b7e2-77b3e44ddac0",
+          "Text": "Gobo 3 shaking, slow to fast",
+          "ToValue": 0.4156862497329712,
+          "FromValue": 0.3921568691730499
+        },
+        {
+          "ID": "44fd8b4e-71d1-446a-a62f-10e6c316a8dd",
+          "Text": "Gobo 2 shaking, slow to fast",
+          "ToValue": 0.4431372582912445,
+          "FromValue": 0.41960784792900085
+        },
+        {
+          "ID": "47d2f831-3333-4f9b-9ace-ed410e2e5f65",
+          "Text": "Gobo 1 shaking, slow to fast",
+          "ToValue": 0.47058823704719543,
+          "FromValue": 0.4470588266849518
+        },
+        {
+          "ID": "ae66a478-ccb7-4d84-90ec-54350e362e9c",
+          "Text": "Open2",
+          "ToValue": 0.4980392158031464,
+          "FromValue": 0.4745098054409027
+        },
+        {
+          "ID": "37c6ac25-fb3d-40b0-8189-83141624d84f",
+          "Text": "Clockwise scroll, slow to fast",
+          "ToValue": 0.7490196228027344,
+          "FromValue": 0.501960813999176
+        },
+        {
+          "ID": "e14b7458-c81d-4818-bb77-e85ea18148c5",
+          "Text": "Counterclockwise scroll, fast to slow",
+          "ToValue": 1,
+          "FromValue": 0.7529411911964417
+        }
+      ],
+      "MasterReact": false,
+      "OtherName": "Static gobo wheel",
+      "DefaultValue": 0,
+      "Invert": false,
+      "Resolution": "8Bits",
+      "AddressFine": "",
+      "Text": "Gobo2"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": false,
+      "ID": "e8a1767c-86b8-4960-a19d-7b76c85fa252",
+      "AddressCoarse": 13,
+      "List": {},
+      "MasterReact": false,
+      "OtherName": "",
+      "DefaultValue": 0.5,
+      "Invert": false,
+      "Resolution": "8Bits",
+      "AddressFine": "",
+      "Text": "Focus"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": true,
+      "IsVirtual": false,
+      "ID": "bf9050a2-dd9b-4d02-a931-29555acc89ce",
+      "AddressCoarse": 14,
+      "List": [
+        {
+          "ID": "db75796a-87d2-4010-846b-728dc3e5290f",
+          "Text": "No function",
+          "ToValue": 0.01568627543747425,
+          "FromValue": 0
+        },
+        {
+          "ID": "8603e920-8ea3-46f1-9855-a448e75a796e",
+          "Text": "Prism effect",
+          "ToValue": 1,
+          "FromValue": 0.01960784383118153
+        }
+      ],
+      "MasterReact": false,
+      "OtherName": "Prism",
+      "DefaultValue": 0,
+      "Invert": false,
+      "Resolution": "8Bits",
+      "AddressFine": "",
+      "Text": "Other1"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": true,
+      "IsVirtual": false,
+      "ID": "2a642d16-9483-441c-84ce-cb95d3d338f0",
+      "AddressCoarse": 15,
+      "List": [
+        {
+          "ID": "4921c642-8353-4aba-a05f-54254f349c94",
+          "Text": "Prism index",
+          "ToValue": 0.4980392158031464,
+          "FromValue": 0
+        },
+        {
+          "ID": "b5b0ba2b-68d9-470a-a59c-008b4cdb4861",
+          "Text": "Clockwise rotation, fast to slow",
+          "ToValue": 0.741176426410675,
+          "FromValue": 0.501960813999176
+        },
+        {
+          "ID": "61a2babe-c941-44bf-93c9-57f5f3a92e7a",
+          "Text": "Hold",
+          "ToValue": 0.7568628191947937,
+          "FromValue": 0.7450980544090271
+        },
+        {
+          "ID": "0ab1a33b-fce8-4ed9-ab2c-269bde16977c",
+          "Text": "Counterclockwise rotation, slow to fast",
+          "ToValue": 1,
+          "FromValue": 0.7607843279838562
+        }
+      ],
+      "MasterReact": false,
+      "OtherName": "Rotating Prism",
+      "DefaultValue": 0,
+      "Invert": false,
+      "Resolution": "8Bits",
+      "AddressFine": "",
+      "Text": "Other2"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": true,
+      "IsVirtual": false,
+      "ID": "b18f042f-94e5-4b32-88e1-e71c2fcd370c",
+      "AddressCoarse": 16,
+      "List": [
+        {
+          "ID": "9595b11f-0616-4647-84ae-e763fb5b99ea",
+          "Text": "Large to small",
+          "ToValue": 0.24705882370471952,
+          "FromValue": 0
+        },
+        {
+          "ID": "318b9087-feb3-4147-a061-fb00afbc2a9a",
+          "Text": "Auto change, slow to fast",
+          "ToValue": 0.4980392158031464,
+          "FromValue": 0.250980406999588
+        },
+        {
+          "ID": "f1edae92-e942-4ada-b7fa-b0dbfd5134fd",
+          "Text": "Slow zoom out, fast zoom in (slow to fast)",
+          "ToValue": 0.7490196228027344,
+          "FromValue": 0.501960813999176
+        },
+        {
+          "ID": "33d63ec6-58af-4bb6-afa5-6ab7a411272a",
+          "Text": "Slow zoom in, fast zoom out (slow to fast)",
+          "ToValue": 1,
+          "FromValue": 0.7529411911964417
+        }
+      ],
+      "MasterReact": false,
+      "OtherName": "Iris",
+      "DefaultValue": 0,
+      "Invert": false,
+      "Resolution": "8Bits",
+      "AddressFine": "",
+      "Text": "Other3"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": true,
+      "IsVirtual": false,
+      "OtherName": "Movement macros",
+      "ID": "a7509cc8-4ebf-4e82-93d3-cdff9644d061",
+      "List": [
+        {
+          "ID": "52a71b82-f2eb-4461-ba2e-d932d728b649",
+          "ToValue": 0.027450980618596077,
+          "Text": "No function",
+          "FromValue": 0
+        },
+        {
+          "ID": "acb715d0-8a61-4fe8-975d-574f4b93cd68",
+          "ToValue": 0.05882352963089943,
+          "Text": "Movement macro 1",
+          "FromValue": 0.0313725508749485
+        },
+        {
+          "ID": "e0f9083d-aa3d-411b-9f45-2bdb9b4200cd",
+          "ToValue": 0.09019608795642853,
+          "Text": "Movement macro 2",
+          "FromValue": 0.062745101749897
+        },
+        {
+          "ID": "318017ca-8163-4b46-898a-28fbe352f7f1",
+          "ToValue": 0.12156863510608673,
+          "Text": "Movement macro 3",
+          "FromValue": 0.0941176488995552
+        },
+        {
+          "ID": "a17e0e43-c63a-4977-aadd-9b962b8e339b",
+          "ToValue": 0.15294118225574493,
+          "Text": "Movement macro 4",
+          "FromValue": 0.125490203499794
+        },
+        {
+          "ID": "9571b99b-c29d-4e9b-8af5-9421ddb2511a",
+          "ToValue": 0.18431372940540314,
+          "Text": "Movement macro 5",
+          "FromValue": 0.1568627506494522
+        },
+        {
+          "ID": "d8764782-5b5d-4fdb-9f21-c89f1ea51834",
+          "ToValue": 0.21568627655506134,
+          "Text": "Movement macro 6",
+          "FromValue": 0.1882352977991104
+        },
+        {
+          "ID": "e8a1767c-86b8-4960-a19d-7b76c85fa252",
+          "ToValue": 0.24705882370471954,
+          "Text": "Movement macro 7",
+          "FromValue": 0.21960784494876862
+        },
+        {
+          "ID": "bf9050a2-dd9b-4d02-a931-29555acc89ce",
+          "ToValue": 0.27843138575553894,
+          "Text": "Movement macro 8",
+          "FromValue": 0.250980406999588
+        },
+        {
+          "ID": "2a642d16-9483-441c-84ce-cb95d3d338f0",
+          "ToValue": 0.30980393290519714,
+          "Text": "Movement macro 9",
+          "FromValue": 0.2823529541492462
+        },
+        {
+          "ID": "18614e32-2e10-405e-96fd-8db6408f6394",
+          "ToValue": 0.34117648005485535,
+          "Text": "Movement macro 10",
+          "FromValue": 0.3137255012989044
+        },
+        {
+          "ID": "af6e0f9c-9236-4061-ad1c-abc8a2bbc0da",
+          "ToValue": 0.37254902720451355,
+          "Text": "Movement macro 11",
+          "FromValue": 0.3450980484485626
+        },
+        {
+          "ID": "b18f042f-94e5-4b32-88e1-e71c2fcd370c",
+          "ToValue": 0.40392157435417175,
+          "Text": "Movement macro 12",
+          "FromValue": 0.3764705955982208
+        },
+        {
+          "ID": "164f0433-29ef-43ca-ae7e-a2a96f898465",
+          "ToValue": 0.43529412150382996,
+          "Text": "Movement macro 13",
+          "FromValue": 0.40784314274787903
+        },
+        {
+          "ID": "0c316913-2a79-4b7a-9d93-fe6f2e97ab04",
+          "ToValue": 0.46666666865348816,
+          "Text": "Movement macro 14",
+          "FromValue": 0.43921568989753723
+        },
+        {
+          "ID": "46ebbe66-e469-45bb-ab23-4ae581e38a7b",
+          "ToValue": 0.49803921580314636,
+          "Text": "Movement macro 15",
+          "FromValue": 0.47058823704719543
+        },
+        {
+          "ID": "111054b2-61ab-43b9-a818-0f7fb8ab560c",
+          "ToValue": 0.529411792755127,
+          "Text": "Movement macro 16",
+          "FromValue": 0.501960813999176
+        },
+        {
+          "ID": "204c3570-789c-465d-b9f0-9d644096007d",
+          "ToValue": 0.5607843399047852,
+          "Text": "Movement macro 17",
+          "FromValue": 0.5333333611488342
+        },
+        {
+          "ID": "e6b9ce99-1c79-499d-a504-53c5d1bae28e",
+          "ToValue": 0.5921568870544434,
+          "Text": "Movement macro 18",
+          "FromValue": 0.5647059082984924
+        },
+        {
+          "ID": "cf3ecfde-a294-44bc-8b71-cd1497c3bf0a",
+          "ToValue": 0.6235294342041016,
+          "Text": "Movement macro 19",
+          "FromValue": 0.5960784554481506
+        },
+        {
+          "ID": "b214ad85-c3a3-43f4-8c20-05a56618b5ae",
+          "ToValue": 0.6549019813537598,
+          "Text": "Movement macro 20",
+          "FromValue": 0.6274510025978088
+        },
+        {
+          "ID": "890746d7-19bc-4dd4-babd-cdee8715d620",
+          "ToValue": 0.6862745881080627,
+          "Text": "Movement macro 21",
+          "FromValue": 0.658823549747467
+        },
+        {
+          "ID": "ac116ac2-2050-4fa0-ba60-36ac0d2a8f73",
+          "ToValue": 0.7176470756530762,
+          "Text": "Movement macro 22",
+          "FromValue": 0.6901960968971252
+        },
+        {
+          "ID": "4c5791fc-27bf-4ca9-bb49-48b387fac97c",
+          "ToValue": 0.7490196228027344,
+          "Text": "Movement macro 23",
+          "FromValue": 0.7215687036514282
+        },
+        {
+          "ID": "bf3ae9e8-77ef-4243-afa0-a08870f2902a",
+          "ToValue": 0.7803921699523926,
+          "Text": "Movement macro 24",
+          "FromValue": 0.7529411911964417
+        },
+        {
+          "ID": "55a663a2-78c6-4056-8dbe-aa8bbf751ed7",
+          "ToValue": 0.811764657497406,
+          "Text": "Movement macro 25",
+          "FromValue": 0.7843137383460999
+        },
+        {
+          "ID": "1dc06e12-3191-499b-aea4-c6fc326293f3",
+          "ToValue": 0.843137264251709,
+          "Text": "Movement macro 26",
+          "FromValue": 0.8156862854957581
+        },
+        {
+          "ID": "64130cce-076c-477b-881e-ed07abc4ec38",
+          "ToValue": 0.8745098114013672,
+          "Text": "Movement macro 27",
+          "FromValue": 0.847058892250061
+        },
+        {
+          "ID": "08cb0b8e-ec46-470a-8cc3-20a05bc6fa47",
+          "ToValue": 0.9058823585510254,
+          "Text": "Movement macro 28",
+          "FromValue": 0.8784313797950745
+        },
+        {
+          "ID": "d1122e45-d0d3-4e44-83dd-ed9022572e98",
+          "ToValue": 0.9372549653053284,
+          "Text": "Movement macro 29",
+          "FromValue": 0.9098039269447327
+        },
+        {
+          "ID": "e8bffdd2-542f-4bb0-adbd-1b6aee0c7036",
+          "ToValue": 0.9686274528503418,
+          "Text": "Movement macro 30",
+          "FromValue": 0.9411764740943909
+        },
+        {
+          "ID": "2e83ce30-c38c-4d58-bda3-d5508615e3f2",
+          "ToValue": 1,
+          "Text": "Movement macro 31",
+          "FromValue": 0.9725490808486938
+        }
+      ],
+      "MasterReact": false,
+      "Text": "Other4",
+      "DefaultValue": 0,
+      "Invert": false,
+      "AddressFine": "",
+      "AddressCoarse": 17,
+      "Resolution": "8Bits"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": false,
+      "IsVirtual": false,
+      "OtherName": "Movement macro speed",
+      "ID": "a00e449b-db73-4b77-bb19-6b995236c8fc",
+      "List": {},
+      "MasterReact": false,
+      "Text": "Other5",
+      "DefaultValue": 0,
+      "Invert": false,
+      "AddressFine": "",
+      "AddressCoarse": 18,
+      "Resolution": "8Bits"
+    },
+    {
+      "DimmerReact": false,
+      "Preset": true,
+      "IsVirtual": false,
+      "ID": "18614e32-2e10-405e-96fd-8db6408f6394",
+      "AddressCoarse": 19,
+      "List": [
+        {
+          "ID": "d4d9e147-bb15-47f1-9185-cdb902f6abed",
+          "Text": "No function",
+          "ToValue": 0.027450980618596077,
+          "FromValue": 0
+        },
+        {
+          "ID": "e77bc6b4-50dc-4631-9ac5-47c85bf64e99",
+          "Text": "Blackout during pan/tilt",
+          "ToValue": 0.05882352963089943,
+          "FromValue": 0.0313725508749485
+        },
+        {
+          "ID": "5cdd61af-b729-43d4-bd65-6aee4c8fea04",
+          "Text": "Blackout while color wheel is moving",
+          "ToValue": 0.09019608795642851,
+          "FromValue": 0.062745101749897
+        },
+        {
+          "ID": "4c445ed3-53f3-4ed1-a363-ce40cb88511c",
+          "Text": "Blackout while gobo wheel is moving",
+          "ToValue": 0.12156863510608672,
+          "FromValue": 0.0941176488995552
+        },
+        {
+          "ID": "054285b9-9eab-4914-8cf9-47282868abb9",
+          "Text": "Pan/tilt/color blackout",
+          "ToValue": 0.1529411822557449,
+          "FromValue": 0.125490203499794
+        },
+        {
+          "ID": "1fb0372f-7c9c-49d4-bd52-1ff911566bc9",
+          "Text": "Pan/tilt/gobo blackout",
+          "ToValue": 0.1843137294054031,
+          "FromValue": 0.1568627506494522
+        },
+        {
+          "ID": "e9e33275-3dcd-467f-8c48-3a42d7de927a",
+          "Text": "Pan/tilt/color/gobo blackout",
+          "ToValue": 0.21568627655506137,
+          "FromValue": 0.1882352977991104
+        },
+        {
+          "ID": "dff8109d-9994-4c6e-8f06-55053c70e697",
+          "Text": "No function 2",
+          "ToValue": 0.3725490272045135,
+          "FromValue": 0.21960784494876864
+        },
+        {
+          "ID": "b99936ce-9ccf-4c3a-addb-b96ef849aaf8",
+          "Text": "Pan reset",
+          "ToValue": 0.40392157435417175,
+          "FromValue": 0.35686275362968445
+        },
+        {
+          "ID": "483e22bb-89ff-4988-8de8-40ed12d6c150",
+          "Text": "Tilt reset",
+          "ToValue": 0.4352941215038299,
+          "FromValue": 0.40784314274787903
+        },
+        {
+          "ID": "15039b57-1d65-4e99-b935-3aaac78267fe",
+          "Text": "Color wheel reset",
+          "ToValue": 0.46666666865348816,
+          "FromValue": 0.4392156898975372
+        },
+        {
+          "ID": "01165ed9-76e8-41d6-bf30-7155f0fcccc9",
+          "Text": "Gobo wheel reset",
+          "ToValue": 0.4980392158031464,
+          "FromValue": 0.47058823704719543
+        },
+        {
+          "ID": "008b24b5-58ef-4ed9-bb4f-6f972b058302",
+          "Text": "Gobo rotation reset",
+          "ToValue": 0.529411792755127,
+          "FromValue": 0.501960813999176
+        },
+        {
+          "ID": "84d85014-80c1-4ec3-97cd-e8a39abf925d",
+          "Text": "Prism reset",
+          "ToValue": 0.5607843399047852,
+          "FromValue": 0.5333333611488342
+        },
+        {
+          "ID": "cbfc110f-73a3-45ca-b2a2-616ccdb67a14",
+          "Text": "Focus reset",
+          "ToValue": 0.5921568870544434,
+          "FromValue": 0.5647059082984924
+        },
+        {
+          "ID": "2390f5f8-0962-4624-8049-d59eb0ca1189",
+          "Text": "All reset",
+          "ToValue": 0.6235294342041016,
+          "FromValue": 0.5960784554481506
+        },
+        {
+          "ID": "60af615d-1e9b-4290-989a-d8a9f50a3cd3",
+          "Text": "Iris reset",
+          "ToValue": 0.6549019813537598,
+          "FromValue": 0.6274510025978088
+        },
+        {
+          "ID": "e79c0b74-6a1e-403c-a50e-b4c033802867",
+          "Text": "No function 3",
+          "ToValue": 0.9372549653053284,
+          "FromValue": 0.658823549747467
+        },
+        {
+          "ID": "d062b562-5755-48b7-93f2-573deb6b4727",
+          "Text": "Pan/tilt smooth mode on",
+          "ToValue": 0.9686274528503418,
+          "FromValue": 0.9411764740943908
+        },
+        {
+          "ID": "56074508-dca8-4af7-bbab-e866c3416561",
+          "Text": "Pan/tilt smooth mode off",
+          "ToValue": 1,
+          "FromValue": 0.9725490808486938
+        }
+      ],
+      "MasterReact": false,
+      "OtherName": "",
+      "DefaultValue": 0,
+      "Invert": false,
+      "Resolution": "8Bits",
+      "AddressFine": "",
+      "Text": "Control"
+    }
+  ]
+}
