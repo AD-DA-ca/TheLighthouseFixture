@@ -1,0 +1,423 @@
+{
+  "Text": "Chauvet, COLORdash Batten-Quad 12 (10 Ch)",
+  "Model": "COLORdash Batten-Quad 12",
+  "Mode": "10 Ch",
+  "Manufacturer": "Chauvet",
+  "ID": "19303007-bc9c-4778-9413-cb2324c5e133",
+  "ChannelCount": 10,
+  "Attributes": [
+    {
+      "MasterReact": true,
+      "Text": "Dimmer",
+      "Resolution": "8Bits",
+      "AddressCoarse": 1,
+      "ID": "b8db00b9-2d41-44b1-9012-e7bb97540dae",
+      "Invert": false,
+      "AddressFine": "",
+      "IsVirtual": false,
+      "OtherName": "",
+      "DimmerReact": false,
+      "List": {},
+      "DefaultValue": 0,
+      "Preset": false
+    },
+    {
+      "MasterReact": false,
+      "Text": "Red",
+      "Resolution": "8Bits",
+      "AddressCoarse": 2,
+      "ID": "6ffa5b1c-e319-42e4-a031-f0f4b8be18b7",
+      "Invert": false,
+      "AddressFine": "",
+      "IsVirtual": false,
+      "OtherName": "",
+      "DimmerReact": false,
+      "List": {},
+      "DefaultValue": 1,
+      "Preset": false
+    },
+    {
+      "MasterReact": false,
+      "Text": "Green",
+      "Resolution": "8Bits",
+      "AddressCoarse": 3,
+      "ID": "2c282e50-ea23-493f-b0a1-28be6ca5b4ad",
+      "Invert": false,
+      "AddressFine": "",
+      "IsVirtual": false,
+      "OtherName": "",
+      "DimmerReact": false,
+      "List": {},
+      "DefaultValue": 1,
+      "Preset": false
+    },
+    {
+      "MasterReact": false,
+      "Text": "Blue",
+      "Resolution": "8Bits",
+      "AddressCoarse": 4,
+      "ID": "16087a86-0071-49ae-9647-0c2690a7e57d",
+      "Invert": false,
+      "AddressFine": "",
+      "IsVirtual": false,
+      "OtherName": "",
+      "DimmerReact": false,
+      "List": {},
+      "DefaultValue": 1,
+      "Preset": false
+    },
+    {
+      "MasterReact": false,
+      "Text": "Amber",
+      "Resolution": "8Bits",
+      "AddressCoarse": 5,
+      "ID": "7efa5e79-8ed0-443c-92d6-26d66a3c1524",
+      "Invert": false,
+      "AddressFine": "",
+      "IsVirtual": false,
+      "OtherName": "",
+      "DimmerReact": false,
+      "List": {},
+      "DefaultValue": 0,
+      "Preset": false
+    },
+    {
+      "MasterReact": false,
+      "Text": "Shutter",
+      "Resolution": "8Bits",
+      "AddressCoarse": 6,
+      "ID": "6c5feb55-a99e-4da9-b7ef-921b4f9acd12",
+      "Invert": false,
+      "AddressFine": "",
+      "IsVirtual": false,
+      "OtherName": "Strobe",
+      "DimmerReact": false,
+      "List": [
+        {
+          "ToValue": 0.03921568766236305,
+          "Text": "No function",
+          "ID": "fd557b38-d42e-4225-8e0f-0fdd6258be14",
+          "FromValue": 0
+        },
+        {
+          "ToValue": 1,
+          "Text": "Slow to fast",
+          "ID": "d0a63d2b-131b-4d1f-be6d-e57d9e0a51b4",
+          "FromValue": 0.04313725605607033
+        }
+      ],
+      "DefaultValue": 0,
+      "Preset": true
+    },
+    {
+      "MasterReact": false,
+      "Text": "Colorwheel1",
+      "Resolution": "8Bits",
+      "AddressCoarse": 7,
+      "ID": "7df144d5-91dc-48ee-86bd-cc927c62b9db",
+      "Invert": false,
+      "AddressFine": "",
+      "IsVirtual": false,
+      "OtherName": "Color Macro + White Balance",
+      "DimmerReact": false,
+      "List": [
+        {
+          "ToValue": 0.03921568766236305,
+          "Text": "No function",
+          "ID": "a4da3e09-4155-4a7b-9f58-9aaf911cfebd",
+          "FromValue": 0
+        },
+        {
+          "ToValue": 0.11764705926179886,
+          "Text": "R: 100% G: 0–100%B: 0",
+          "ID": "c11a9208-10e9-4d65-b604-e4ec54e96c2b",
+          "FromValue": 0.04313725605607033
+        },
+        {
+          "ToValue": 0.19607843458652496,
+          "Text": "R: 100%–0 G: 100% B: 0",
+          "ID": "afc3f4f0-97da-4445-b4f2-6cdbcaf3ea0c",
+          "FromValue": 0.12156863510608673
+        },
+        {
+          "ToValue": 0.27450981736183167,
+          "Text": "R: 0 G: 100% B: 0–100%",
+          "ID": "caea40e8-77a5-46be-9118-a156056e0ccf",
+          "FromValue": 0.20000000298023224
+        },
+        {
+          "ToValue": 0.3529411554336548,
+          "Text": "R: 0 G: 100%–0 B: 100%",
+          "ID": "cd86f446-e84a-4e98-8ca3-30cb73f5edcb",
+          "FromValue": 0.27843138575553894
+        },
+        {
+          "ToValue": 0.4313725531101227,
+          "Text": "R: 0–100% G: 0 B: 100%",
+          "ID": "8e7556ec-19e4-420d-a57c-84dfa6673da1",
+          "FromValue": 0.35686275362968445
+        },
+        {
+          "ToValue": 0.5098039507865906,
+          "Text": "R: 100% G: 0 B: 100%–0",
+          "ID": "46b8222e-4bdd-4ab5-99db-bd5ea5f4b36d",
+          "FromValue": 0.43529412150382996
+        },
+        {
+          "ToValue": 0.5882353186607361,
+          "Text": "R: 100% G: 0–100%B: 0–100%",
+          "ID": "54e5080b-cd9a-4e6d-9a7f-48a8531a969b",
+          "FromValue": 0.5137255191802979
+        },
+        {
+          "ToValue": 0.6666667461395264,
+          "Text": "R: 100%–0 G: 100%–0 B: 100%",
+          "ID": "f1f63275-b833-4c4c-8d92-86134f2b1db7",
+          "FromValue": 0.5921568870544434
+        },
+        {
+          "ToValue": 0.7843137383460999,
+          "Text": "R: 100% G: 100% B: 100% A: 100%",
+          "ID": "af3996d6-126a-4395-bc98-82ccdadbc43c",
+          "FromValue": 0.6705882549285889
+        },
+        {
+          "ToValue": 0.8039215803146362,
+          "Text": "White 1",
+          "ID": "cce4d7d1-8d96-42e3-9f34-c5b09752cea5",
+          "FromValue": 0.7882353067398071
+        },
+        {
+          "ToValue": 0.8235294222831726,
+          "Text": "White 2",
+          "ID": "eeea5be3-46e7-4622-b34c-50db2036d647",
+          "FromValue": 0.8078431487083435
+        },
+        {
+          "ToValue": 0.843137264251709,
+          "Text": "White 3",
+          "ID": "b369a0dd-b604-4783-9e62-a42b1ecec6e9",
+          "FromValue": 0.8274509906768799
+        },
+        {
+          "ToValue": 0.8627451062202454,
+          "Text": "White 4",
+          "ID": "2670894e-f13f-4327-b88a-e072bc130340",
+          "FromValue": 0.847058892250061
+        },
+        {
+          "ToValue": 0.8823530077934265,
+          "Text": "White 5",
+          "ID": "c81e0766-03dd-4fe8-a2b5-b4d2f8f46353",
+          "FromValue": 0.8666666150093079
+        },
+        {
+          "ToValue": 0.9019607305526733,
+          "Text": "White 6",
+          "ID": "bc0f63fa-2407-4652-b1a9-288cfbaf5b71",
+          "FromValue": 0.8745098114013672
+        },
+        {
+          "ToValue": 0.9215686321258545,
+          "Text": "White 7",
+          "ID": "b5a42049-58f7-43e0-b194-91c5f04b433e",
+          "FromValue": 0.9058823585510254
+        },
+        {
+          "ToValue": 0.9411764740943909,
+          "Text": "White 8",
+          "ID": "ee18ebff-f4fa-4628-bbe0-3b7766e2bd70",
+          "FromValue": 0.9254902005195618
+        },
+        {
+          "ToValue": 0.9607843160629272,
+          "Text": "White 9",
+          "ID": "410534fd-89cc-4230-a7fe-cf15cb639e48",
+          "FromValue": 0.9450980424880981
+        },
+        {
+          "ToValue": 0.9803921580314636,
+          "Text": "White 10",
+          "ID": "02adc018-b592-4663-a132-f8cda294c3b8",
+          "FromValue": 0.9647058844566345
+        },
+        {
+          "ToValue": 1,
+          "Text": "White 11",
+          "ID": "4226f954-ac5a-4681-9725-888677c820f9",
+          "FromValue": 0.9843137264251709
+        }
+      ],
+      "DefaultValue": 0,
+      "Preset": true
+    },
+    {
+      "MasterReact": false,
+      "Text": "Other1",
+      "Resolution": "8Bits",
+      "AddressCoarse": 8,
+      "ID": "2f0c4335-a878-4123-a059-58fdc66ec5c0",
+      "Invert": false,
+      "AddressFine": "",
+      "IsVirtual": false,
+      "OtherName": "Auto Programs",
+      "DimmerReact": false,
+      "List": [
+        {
+          "ToValue": 0.03921568766236305,
+          "Text": "No function",
+          "ID": "61d86154-857e-455b-8891-b474bfa0226d",
+          "FromValue": 0
+        },
+        {
+          "ToValue": 0.11764705926179886,
+          "Text": "Auto 1",
+          "ID": "f63a774c-1dc4-4cd5-94e8-9489a348fea4",
+          "FromValue": 0.04313725605607033
+        },
+        {
+          "ToValue": 0.19607843458652496,
+          "Text": "Auto 2",
+          "ID": "f39757e2-76d1-4bc9-9341-6f14919500ad",
+          "FromValue": 0.12156863510608673
+        },
+        {
+          "ToValue": 0.27450981736183167,
+          "Text": "Auto 3",
+          "ID": "ae48ad0f-7ef3-4d63-8e65-f3a3567dd5aa",
+          "FromValue": 0.20000000298023224
+        },
+        {
+          "ToValue": 0.3529411554336548,
+          "Text": "Auto 4",
+          "ID": "31e4eb48-0cde-4605-9177-960eab8a47ee",
+          "FromValue": 0.27843138575553894
+        },
+        {
+          "ToValue": 0.4313725531101227,
+          "Text": "Auto 5",
+          "ID": "baf12fac-2013-4c82-922f-b1e1b13c15aa",
+          "FromValue": 0.35686275362968445
+        },
+        {
+          "ToValue": 0.5098039507865906,
+          "Text": "Auto 6",
+          "ID": "22e22b86-8227-4e2c-8e6e-aa04023ed92d",
+          "FromValue": 0.43529412150382996
+        },
+        {
+          "ToValue": 0.5882353186607361,
+          "Text": "Auto 7",
+          "ID": "da8a6b58-ae95-4e60-b50c-7e12d6573127",
+          "FromValue": 0.5137255191802979
+        },
+        {
+          "ToValue": 0.6666667461395264,
+          "Text": "Auto 8",
+          "ID": "90048038-96fc-4a9f-beb2-19d13e59bc12",
+          "FromValue": 0.5921568870544434
+        },
+        {
+          "ToValue": 0.7450980544090271,
+          "Text": "Auto 9",
+          "ID": "48d9d1f9-26ec-45df-b24b-9cb0b65b8a80",
+          "FromValue": 0.6705882549285889
+        },
+        {
+          "ToValue": 0.8235294222831726,
+          "Text": "Auto 10",
+          "ID": "04d97a17-5303-4478-8916-47d90f398ca7",
+          "FromValue": 0.7490196228027344
+        },
+        {
+          "ToValue": 0.9019607305526733,
+          "Text": "Auto 11",
+          "ID": "127390b0-9b59-4f3d-a499-6aefa7b56bc1",
+          "FromValue": 0.8274509906768799
+        },
+        {
+          "ToValue": 0.9803921580314636,
+          "Text": "Auto 12",
+          "ID": "9fa514b1-2d3f-4582-a100-cf06a84f1135",
+          "FromValue": 0.9058823585510254
+        },
+        {
+          "ToValue": 1,
+          "Text": "Auto 1-12",
+          "ID": "54f059d3-74b8-4e98-b55f-38ddd62b1b18",
+          "FromValue": 0.9843137264251709
+        }
+      ],
+      "DefaultValue": 0,
+      "Preset": true
+    },
+    {
+      "MasterReact": false,
+      "Text": "Other2",
+      "Resolution": "8Bits",
+      "AddressCoarse": 9,
+      "ID": "2823cb8b-68f1-421c-a744-d328ad13f9af",
+      "Invert": false,
+      "AddressFine": "",
+      "IsVirtual": false,
+      "OtherName": "Auto Speed",
+      "DimmerReact": false,
+      "List": [
+        {
+          "ToValue": 1,
+          "Text": "Slow to fast",
+          "ID": "c4e23139-1159-4a2d-bfed-99a5b8f0d229",
+          "FromValue": 0
+        }
+      ],
+      "DefaultValue": 0,
+      "Preset": true
+    },
+    {
+      "MasterReact": false,
+      "Text": "Dimmer Curve",
+      "Resolution": "8Bits",
+      "AddressCoarse": 10,
+      "ID": "c4a936cd-acfd-4037-8da5-04f107b57d3a",
+      "Invert": false,
+      "AddressFine": "",
+      "IsVirtual": false,
+      "OtherName": "Dimmer Speed",
+      "DimmerReact": false,
+      "List": [
+        {
+          "ToValue": 0.20000000298023224,
+          "Text": "Preset dimmer speed from display menu",
+          "ID": "d512001c-c0f5-4786-877e-a543e097d726",
+          "FromValue": 0
+        },
+        {
+          "ToValue": 0.3960784673690796,
+          "Text": "Linear dimmer",
+          "ID": "6414756a-9820-4a88-921e-f7469b8cbe9f",
+          "FromValue": 0.20392157137393951
+        },
+        {
+          "ToValue": 0.5960784554481506,
+          "Text": "Nonlinear dimming curve 1 (fastest)",
+          "ID": "a5cfcd2b-7b94-4541-aa81-1e19119c3df8",
+          "FromValue": 0.38823527097702026
+        },
+        {
+          "ToValue": 0.7960784435272217,
+          "Text": "Nonlinear dimming curve 2",
+          "ID": "8ec9d0a3-9506-4fef-a36c-dac3c3869c69",
+          "FromValue": 0.6000000238418579
+        },
+        {
+          "ToValue": 1,
+          "Text": "Nonlinear dimming curve 3 (slowest)",
+          "ID": "a5fa200c-fe6f-40f8-8b79-061b21b63d36",
+          "FromValue": 0.800000011920929
+        }
+      ],
+      "DefaultValue": 0,
+      "Preset": true
+    }
+  ]
+}
