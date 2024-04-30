@@ -1,0 +1,25 @@
+{
+  "Text": "Elation, WW Profile HP (1 channel)",
+  "Model": "WW Profile HP",
+  "Mode": "1 ch",
+  "Manufacturer": "Elation",
+  "ID": "bf9050a2-dd9b-4d02-a931-29555acc89ce",
+  "ChannelCount": 1,
+  "Attributes": [
+    {
+      "DefaultValue": 0,
+      "OtherName": "",
+      "AddressFine": "",
+      "Resolution": "8Bits",
+      "IsVirtual": false,
+      "Text": "Dimmer",
+      "Preset": false,
+      "ID": "2a642d16-9483-441c-84ce-cb95d3d338f0",
+      "AddressCoarse": 1,
+      "DimmerReact": false,
+      "Invert": false,
+      "MasterReact": true,
+      "List": {}
+    }
+  ]
+}
