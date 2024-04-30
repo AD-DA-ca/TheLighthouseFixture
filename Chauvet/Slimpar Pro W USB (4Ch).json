@@ -1,0 +1,70 @@
+{
+  "Text": "Chauvet, Slimpar Pro W USB (4Ch)",
+  "Model": "Slimpar Pro W USB ",
+  "Mode": "4Ch",
+  "Manufacturer": "Chauvet",
+  "ID": "a00e449b-db73-4b77-bb19-6b995236c8fc",
+  "ChannelCount": 4,
+  "Attributes": [
+    {
+      "Resolution": "8Bits",
+      "IsVirtual": false,
+      "MasterReact": true,
+      "Text": "Dimmer",
+      "AddressCoarse": 1,
+      "List": {},
+      "Preset": false,
+      "AddressFine": "",
+      "OtherName": "Dimmer",
+      "Invert": false,
+      "ID": "b214ad85-c3a3-43f4-8c20-05a56618b5ae",
+      "DefaultValue": 0,
+      "DimmerReact": false
+    },
+    {
+      "Resolution": "8Bits",
+      "IsVirtual": false,
+      "MasterReact": false,
+      "Text": "White",
+      "AddressCoarse": 2,
+      "List": {},
+      "Preset": false,
+      "AddressFine": "",
+      "OtherName": "Warm White",
+      "Invert": false,
+      "ID": "890746d7-19bc-4dd4-babd-cdee8715d620",
+      "DefaultValue": 1,
+      "DimmerReact": false
+    },
+    {
+      "Resolution": "8Bits",
+      "IsVirtual": false,
+      "MasterReact": false,
+      "Text": "White2",
+      "AddressCoarse": 3,
+      "List": {},
+      "Preset": false,
+      "AddressFine": "",
+      "OtherName": "Cool White",
+      "Invert": false,
+      "ID": "ac116ac2-2050-4fa0-ba60-36ac0d2a8f73",
+      "DefaultValue": 1,
+      "DimmerReact": false
+    },
+    {
+      "Resolution": "8Bits",
+      "IsVirtual": false,
+      "MasterReact": false,
+      "Text": "Amber",
+      "AddressCoarse": 4,
+      "List": {},
+      "Preset": false,
+      "AddressFine": "",
+      "OtherName": "Amber",
+      "Invert": false,
+      "ID": "4c5791fc-27bf-4ca9-bb49-48b387fac97c",
+      "DefaultValue": 1,
+      "DimmerReact": false
+    }
+  ]
+}
