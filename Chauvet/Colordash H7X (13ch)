@@ -1,0 +1,426 @@
+{
+  "Text": "Chauvet, Colordash H7X (13ch)",
+  "Model": "Colordash H7X",
+  "Mode": "13ch",
+  "Manufacturer": "Chauvet",
+  "ID": "093c975e-db2d-4b84-8152-2f7100689992",
+  "ChannelCount": 13,
+  "Attributes": [
+    {
+      "OtherName": "",
+      "MasterReact": true,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 1,
+      "ID": "a7509cc8-4ebf-4e82-93d3-cdff9644d061",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Dimmer",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 2,
+      "ID": "a00e449b-db73-4b77-bb19-6b995236c8fc",
+      "DefaultValue": 1,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Red",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 3,
+      "ID": "52a71b82-f2eb-4461-ba2e-d932d728b649",
+      "DefaultValue": 1,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Green",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 4,
+      "ID": "acb715d0-8a61-4fe8-975d-574f4b93cd68",
+      "DefaultValue": 1,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Blue",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 5,
+      "ID": "e0f9083d-aa3d-411b-9f45-2bdb9b4200cd",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Amber",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 6,
+      "ID": "318017ca-8163-4b46-898a-28fbe352f7f1",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "White",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 7,
+      "ID": "a17e0e43-c63a-4977-aadd-9b962b8e339b",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Uv",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": [
+        {
+          "ID": "d8764782-5b5d-4fdb-9f21-c89f1ea51834",
+          "FromValue": 0,
+          "Text": "Open",
+          "ToValue": 0.03529411926865578
+        },
+        {
+          "ID": "e8a1767c-86b8-4960-a19d-7b76c85fa252",
+          "FromValue": 0.03921568766236305,
+          "Text": "Strobe",
+          "ToValue": 1
+        }
+      ],
+      "AddressCoarse": 8,
+      "ID": "9571b99b-c29d-4e9b-8af5-9421ddb2511a",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Shutter",
+      "Preset": true
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": [
+        {
+          "ID": "2a642d16-9483-441c-84ce-cb95d3d338f0",
+          "FromValue": 0,
+          "Text": "Open",
+          "ToValue": 0.03529411926865578
+        },
+        {
+          "ID": "18614e32-2e10-405e-96fd-8db6408f6394",
+          "FromValue": 0.03921568766236305,
+          "Text": "Red",
+          "ToValue": 0.03921568766236305
+        },
+        {
+          "ID": "af6e0f9c-9236-4061-ad1c-abc8a2bbc0da",
+          "FromValue": 0.11372549086809158,
+          "Text": "Yellow",
+          "ToValue": 0.11372549086809158
+        },
+        {
+          "ID": "b18f042f-94e5-4b32-88e1-e71c2fcd370c",
+          "FromValue": 0.1921568661928177,
+          "Text": "Green",
+          "ToValue": 0.1921568661928177
+        },
+        {
+          "ID": "164f0433-29ef-43ca-ae7e-a2a96f898465",
+          "FromValue": 0.2705882489681244,
+          "Text": "Cyan",
+          "ToValue": 0.2705882489681244
+        },
+        {
+          "ID": "0c316913-2a79-4b7a-9d93-fe6f2e97ab04",
+          "FromValue": 0.3490196168422699,
+          "Text": "Blue",
+          "ToValue": 0.3490196168422699
+        },
+        {
+          "ID": "46ebbe66-e469-45bb-ab23-4ae581e38a7b",
+          "FromValue": 0.4274509847164154,
+          "Text": "Magenta",
+          "ToValue": 0.4274509847164154
+        },
+        {
+          "ID": "111054b2-61ab-43b9-a818-0f7fb8ab560c",
+          "FromValue": 0.5843137502670288,
+          "Text": "White",
+          "ToValue": 0.5843137502670288
+        },
+        {
+          "ID": "204c3570-789c-465d-b9f0-9d644096007d",
+          "FromValue": 0.6627451181411743,
+          "Text": "Blue",
+          "ToValue": 0.6627451181411743
+        },
+        {
+          "ID": "e6b9ce99-1c79-499d-a504-53c5d1bae28e",
+          "FromValue": 0.6666667461395264,
+          "Text": "White",
+          "ToValue": 0.6666667461395264
+        },
+        {
+          "ID": "cf3ecfde-a294-44bc-8b71-cd1497c3bf0a",
+          "FromValue": 0.7843137383460999,
+          "Text": "CCT",
+          "ToValue": 1
+        }
+      ],
+      "AddressCoarse": 9,
+      "ID": "bf9050a2-dd9b-4d02-a931-29555acc89ce",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Colorwheel1",
+      "Preset": true
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": [
+        {
+          "ID": "890746d7-19bc-4dd4-babd-cdee8715d620",
+          "FromValue": 0,
+          "Text": "Open",
+          "ToValue": 0.01568627543747425
+        },
+        {
+          "ID": "ac116ac2-2050-4fa0-ba60-36ac0d2a8f73",
+          "FromValue": 0.019607843831181526,
+          "Text": "Warm white 1",
+          "ToValue": 0.0941176488995552
+        },
+        {
+          "ID": "4c5791fc-27bf-4ca9-bb49-48b387fac97c",
+          "FromValue": 0.09803921729326248,
+          "Text": "Warm White 2",
+          "ToValue": 0.1921568661928177
+        },
+        {
+          "ID": "bf3ae9e8-77ef-4243-afa0-a08870f2902a",
+          "FromValue": 0.19607843458652496,
+          "Text": "Warm White 3",
+          "ToValue": 0.29019609093666077
+        },
+        {
+          "ID": "55a663a2-78c6-4056-8dbe-aa8bbf751ed7",
+          "FromValue": 0.29411765933036804,
+          "Text": "Neutral white 1",
+          "ToValue": 0.38823527097702026
+        },
+        {
+          "ID": "1dc06e12-3191-499b-aea4-c6fc326293f3",
+          "FromValue": 0.3921568691730499,
+          "Text": "Neutral white 2",
+          "ToValue": 0.4862745404243469
+        },
+        {
+          "ID": "64130cce-076c-477b-881e-ed07abc4ec38",
+          "FromValue": 0.4901960790157318,
+          "Text": "Neutral white 3",
+          "ToValue": 0.5843137502670288
+        },
+        {
+          "ID": "08cb0b8e-ec46-470a-8cc3-20a05bc6fa47",
+          "FromValue": 0.5882353186607361,
+          "Text": "Daylight 1",
+          "ToValue": 0.6823529601097107
+        },
+        {
+          "ID": "d1122e45-d0d3-4e44-83dd-ed9022572e98",
+          "FromValue": 0.6862745881080627,
+          "Text": "Daylight 2",
+          "ToValue": 0.7803921699523926
+        },
+        {
+          "ID": "e8bffdd2-542f-4bb0-adbd-1b6aee0c7036",
+          "FromValue": 0.7843137383460999,
+          "Text": "Daylight 3",
+          "ToValue": 0.8784313797950745
+        },
+        {
+          "ID": "2e83ce30-c38c-4d58-bda3-d5508615e3f2",
+          "FromValue": 0.8823530077934265,
+          "Text": "Daylight 4",
+          "ToValue": 0.9764705896377563
+        },
+        {
+          "ID": "de73a896-0d24-44a8-b9c6-db2800b5e7c0",
+          "FromValue": 0.9803921580314636,
+          "Text": "Open",
+          "ToValue": 1
+        }
+      ],
+      "AddressCoarse": 10,
+      "ID": "b214ad85-c3a3-43f4-8c20-05a56618b5ae",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Cto",
+      "Preset": true
+    },
+    {
+      "OtherName": "Macros",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": [
+        {
+          "ID": "6b597806-3edf-4991-9471-d4ce9348d44b",
+          "FromValue": 0,
+          "Text": "Open",
+          "ToValue": 0.03529411926865578
+        },
+        {
+          "ID": "d337e90f-0942-4137-b015-4876e9476f8d",
+          "FromValue": 0.03921568766236305,
+          "Text": "Slot 1",
+          "ToValue": 0.23137255012989044
+        },
+        {
+          "ID": "cc9d5f4f-b2c7-4200-9d20-3dcca4ced370",
+          "FromValue": 0.23529411852359772,
+          "Text": "Slot 2",
+          "ToValue": 0.4274509847164154
+        },
+        {
+          "ID": "105b6242-b208-45c2-b202-d3958adef128",
+          "FromValue": 0.4313725531101227,
+          "Text": "Slot 3",
+          "ToValue": 0.6235294342041016
+        },
+        {
+          "ID": "ce1dd68a-74ff-4b94-8397-537bfaf383e7",
+          "FromValue": 0.6274510025978088,
+          "Text": "Slot 4",
+          "ToValue": 0.8196078538894653
+        },
+        {
+          "ID": "58955243-ebca-4a4c-8bd5-070d9899cabc",
+          "FromValue": 0.8235294222831726,
+          "Text": "Slot 5",
+          "ToValue": 1
+        }
+      ],
+      "AddressCoarse": 11,
+      "ID": "a0af8b4d-a94d-47b5-87a6-6049e6e680fd",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Other1",
+      "Preset": true
+    },
+    {
+      "OtherName": "Macro Speed",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 12,
+      "ID": "e6b30955-af3e-45fa-8458-4311bdad079e",
+      "DefaultValue": 0.5,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Other2",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": [
+        {
+          "ID": "9e666adf-4090-4a6f-a365-9c01645dd439",
+          "FromValue": 0,
+          "Text": "From menu",
+          "ToValue": 0.19607843458652496
+        },
+        {
+          "ID": "7f65669e-56f8-469c-8231-57a51924d7f3",
+          "FromValue": 0.20000000298023224,
+          "Text": "Linear",
+          "ToValue": 0.3921568691730499
+        },
+        {
+          "ID": "18409c1f-5e83-4474-9cd6-6bb11cda5716",
+          "FromValue": 0.3960784673690796,
+          "Text": "Curve 1 (fast)",
+          "ToValue": 0.5921568870544434
+        },
+        {
+          "ID": "35e34252-4325-418f-b7e2-77b3e44ddac0",
+          "FromValue": 0.5960784554481506,
+          "Text": "Curve 2 (med)",
+          "ToValue": 0.7921569347381592
+        },
+        {
+          "ID": "44fd8b4e-71d1-446a-a62f-10e6c316a8dd",
+          "FromValue": 0.7960784435272217,
+          "Text": "Curve 3 (Slow)",
+          "ToValue": 1
+        }
+      ],
+      "AddressCoarse": 13,
+      "ID": "49bded94-c28b-46f1-90a4-233dc070f19f",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Dimmer Curve",
+      "Preset": true
+    }
+  ]
+}
