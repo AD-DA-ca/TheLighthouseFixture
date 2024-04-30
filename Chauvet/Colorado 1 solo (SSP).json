@@ -1,0 +1,238 @@
+{
+  "Text": "Chauvet, Colorado 1 solo (SSP)",
+  "Model": "Colorado 1 solo",
+  "Mode": "SSP",
+  "Manufacturer": "Chauvet",
+  "ID": "37c6ac25-fb3d-43b0-8189-83141624d84f",
+  "ChannelCount": 9,
+  "Attributes": [
+    {
+      "OtherName": "",
+      "MasterReact": true,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 1,
+      "ID": "e14b7458-c81d-4818-ab77-e85ea18148c5",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Dimmer",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 2,
+      "ID": "db75796a-87d2-4010-846a-728dc3e5290f",
+      "DefaultValue": 1,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Red",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 3,
+      "ID": "8603e920-8ea3-46e1-9855-a448e75a796e",
+      "DefaultValue": 1,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Green",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 4,
+      "ID": "1a2311bd-77a6-4a1d-9e8e-6ba5dd1b53dc",
+      "DefaultValue": 1,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Blue",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 5,
+      "ID": "4921c642-8353-4aba-a05e-54254f349c94",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "White",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": [
+        {
+          "ID": "6ad8225a-e57a-4038-ba3c-a4338cd0cf20",
+          "FromValue": 0,
+          "Text": "Open",
+          "ToValue": 0.0313725508749485
+        },
+        {
+          "ID": "da66c1e5-ddc3-4aca-a76a-8b49e7cf6d9b",
+          "FromValue": 0.03529411926865578,
+          "Text": "Strobe",
+          "ToValue": 0.3843137323856354
+        },
+        {
+          "ID": "fc880a6d-4997-4eb6-9b3c-358105457ec7",
+          "FromValue": 0.3885999917984009,
+          "Text": "Open",
+          "ToValue": 0.4235294461250305
+        },
+        {
+          "ID": "6b950231-260c-4c78-8e38-fdd8846b1900",
+          "FromValue": 0.4274509847164154,
+          "Text": "Lightning",
+          "ToValue": 0.6980392336845398
+        },
+        {
+          "ID": "2a3fd685-c30c-42d2-be74-0161ff3d0c2d",
+          "FromValue": 0.7019608020782471,
+          "Text": "Open",
+          "ToValue": 0.7372549176216125
+        },
+        {
+          "ID": "f003abb6-bc65-48a2-ad4c-9d827dab3a85",
+          "FromValue": 0.7416999936103821,
+          "Text": "Random",
+          "ToValue": 1
+        }
+      ],
+      "AddressCoarse": 6,
+      "ID": "61a2babe-c941-44bf-93c9-57e5f3a92e7a",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Shutter",
+      "Preset": true
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": {},
+      "AddressCoarse": 7,
+      "ID": "318b9087-feb3-4147-a041-fb00afbc2a9a",
+      "DefaultValue": 0.5,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Zoom",
+      "Preset": false
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": [
+        {
+          "ID": "0af1d65f-fede-4935-9327-05c914d9e1c1",
+          "FromValue": 0,
+          "Text": "No Function",
+          "ToValue": 0.7803921699523926
+        },
+        {
+          "ID": "87eded3e-190b-49bf-b959-a652ade53d00",
+          "FromValue": 0.7843137383460999,
+          "Text": "Zoom Reset",
+          "ToValue": 0.8588235378265381
+        },
+        {
+          "ID": "a0094ec7-87ef-4e23-84db-149e5cb788fb",
+          "FromValue": 0.8627451062202454,
+          "Text": "No Function",
+          "ToValue": 1
+        }
+      ],
+      "AddressCoarse": 8,
+      "ID": "f1edae92-e942-4ada-b7fa-b0dafd5134fd",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Control",
+      "Preset": true
+    },
+    {
+      "OtherName": "",
+      "MasterReact": false,
+      "Resolution": "8Bits",
+      "Invert": false,
+      "List": [
+        {
+          "ID": "67cd7dad-9443-431a-8fa2-20f5b9c75d8c",
+          "FromValue": 0,
+          "Text": "From Menu",
+          "ToValue": 0.0313725508749485
+        },
+        {
+          "ID": "44b70750-e7e9-4d35-8c07-051a71554bc4",
+          "FromValue": 0.03529411926865578,
+          "Text": "Linear",
+          "ToValue": 0.10980392247438431
+        },
+        {
+          "ID": "2b666c4e-f54d-4104-b594-19245228c3f7",
+          "FromValue": 0.11372549086809158,
+          "Text": "Curve 1 (fast)",
+          "ToValue": 0.2666666805744171
+        },
+        {
+          "ID": "213f2b48-d8ea-4812-a480-facade7996d7",
+          "FromValue": 0.2705882489681244,
+          "Text": "Curve 2",
+          "ToValue": 0.501960813999176
+        },
+        {
+          "ID": "3fac8a0d-bd22-4b07-a677-400e52cd7228",
+          "FromValue": 0.5058823823928833,
+          "Text": "Curve 3",
+          "ToValue": 0.7372549176216125
+        },
+        {
+          "ID": "afb2d11a-b4e2-4dd3-bb97-00906b76d88d",
+          "FromValue": 0.7416000366210938,
+          "Text": "Curve 4 (Slow)",
+          "ToValue": 1
+        }
+      ],
+      "AddressCoarse": 9,
+      "ID": "33d63ec6-58af-4bb6-afa5-6ab4a411272a",
+      "DefaultValue": 0,
+      "AddressFine": "",
+      "DimmerReact": false,
+      "IsVirtual": false,
+      "Text": "Dimmer Curve",
+      "Preset": true
+    }
+  ]
+}
