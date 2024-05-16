@@ -1,0 +1,96 @@
+{
+  "Text": "ADJ, COB Cannon Wash ST DW (5CH)",
+  "Model": "COB Cannon Wash ST DW",
+  "Mode": "5CH",
+  "Manufacturer": "ADJ",
+  "ID": "093c975e-db2d-4b84-8166-2f7100689992",
+  "ChannelCount": 5,
+  "Attributes": [
+    {
+      "DefaultValue": 1,
+      "List": [
+        {
+          "Text": "Off",
+          "ID": "a00e449b-db73-4b77-bb19-6b995236c8fc",
+          "ToValue": 0,
+          "FromValue": 0
+        },
+        {
+          "Text": "3200K to 6400K Linear",
+          "ID": "52a71b82-f2eb-4461-ba2e-d932d728b649",
+          "ToValue": 1,
+          "FromValue": 0.003921568859368563
+        }
+      ],
+      "AddressFine": "",
+      "IsVirtual": false,
+      "AddressCoarse": 1,
+      "ID": "a7509cc8-4ebf-4e82-93d3-cdff9644d061",
+      "DimmerReact": false,
+      "Invert": false,
+      "MasterReact": false,
+      "Text": "White",
+      "Preset": false,
+      "OtherName": "Cold White",
+      "Resolution": "8Bits"
+    },
+    {
+      "DefaultValue": 1,
+      "List": {},
+      "AddressFine": "",
+      "IsVirtual": false,
+      "AddressCoarse": 2,
+      "ID": "a00e449b-db73-4b77-bb19-6b995236c8fc",
+      "DimmerReact": false,
+      "Invert": false,
+      "MasterReact": false,
+      "Text": "Amber",
+      "Preset": false,
+      "OtherName": "Warm White",
+      "Resolution": "8Bits"
+    },
+    {
+      "DefaultValue": 0,
+      "List": [
+        {
+          "Text": "Off",
+          "ID": "a00e449b-db73-4b77-bb19-6b995236c8fc",
+          "ToValue": 0,
+          "FromValue": 0
+        },
+        {
+          "Text": "3200K to 6400K Linear",
+          "ID": "52a71b82-f2eb-4461-ba2e-d932d728b649",
+          "ToValue": 1,
+          "FromValue": 0.003921568859368563
+        }
+      ],
+      "Preset": true,
+      "IsVirtual": false,
+      "OtherName": "Variable White",
+      "ID": "a7509cc8-4ebf-4e82-93d3-cdff9644d061",
+      "DimmerReact": false,
+      "Invert": false,
+      "Resolution": "8Bits",
+      "Text": "Colorwheel1",
+      "AddressCoarse": 3,
+      "MasterReact": false,
+      "AddressFine": ""
+    },
+    {
+      "DefaultValue": 0,
+      "List": {},
+      "AddressFine": 5,
+      "IsVirtual": false,
+      "AddressCoarse": 4,
+      "ID": "52a71b82-f2eb-4461-ba2e-d932d728b649",
+      "DimmerReact": false,
+      "Invert": false,
+      "MasterReact": true,
+      "Text": "Dimmer",
+      "Preset": false,
+      "OtherName": "Dimmer",
+      "Resolution": "16Bits"
+    }
+  ]
+}
