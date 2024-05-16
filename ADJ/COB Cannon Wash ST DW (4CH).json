@@ -1,0 +1,55 @@
+{
+  "Text": "ADJ, COB Cannon Wash ST DW (4CH)",
+  "Model": "COB Cannon Wash ST DW",
+  "Mode": "4CH",
+  "Manufacturer": "ADJ",
+  "ID": "093c975e-db2d-4b84-8152-2f7100689992",
+  "ChannelCount": 4,
+  "Attributes": [
+    {
+      "List": {},
+      "IsVirtual": false,
+      "Invert": false,
+      "AddressFine": "",
+      "AddressCoarse": 1,
+      "Text": "White",
+      "Resolution": "8Bits",
+      "DefaultValue": 1,
+      "OtherName": "Cold White",
+      "Preset": false,
+      "MasterReact": false,
+      "ID": "a7509cc8-4ebf-4e82-93d3-cdff9644d061",
+      "DimmerReact": false
+    },
+    {
+      "List": {},
+      "IsVirtual": false,
+      "Invert": false,
+      "AddressFine": "",
+      "AddressCoarse": 2,
+      "Text": "Amber",
+      "Resolution": "8Bits",
+      "DefaultValue": 1,
+      "OtherName": "Warm White",
+      "Preset": false,
+      "MasterReact": false,
+      "ID": "a00e449b-db73-4b77-bb19-6b995236c8fc",
+      "DimmerReact": false
+    },
+    {
+      "List": {},
+      "IsVirtual": false,
+      "Invert": false,
+      "AddressFine": 4,
+      "AddressCoarse": 3,
+      "Text": "Dimmer",
+      "Resolution": "16Bits",
+      "DefaultValue": 0,
+      "OtherName": "",
+      "Preset": false,
+      "MasterReact": true,
+      "ID": "52a71b82-f2eb-4461-ba2e-d932d728b649",
+      "DimmerReact": false
+    }
+  ]
+}
