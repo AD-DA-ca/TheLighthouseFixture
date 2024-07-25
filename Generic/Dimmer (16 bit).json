@@ -1,0 +1,25 @@
+{
+  "Text": "Generic, Dimmer (16 bit)",
+  "Model": "Dimmer",
+  "Mode": "16 bit",
+  "ID": "093c975e-db2d-4b84-8163-2f7220689992",
+  "ChannelCount": 2,
+  "Manufacturer": "Generic",
+  "Attributes": [
+    {
+      "List": {},
+      "DefaultValue": 0,
+      "IsVirtual": false,
+      "Text": "Dimmer",
+      "Resolution": "16Bits",
+      "AddressCoarse": 1,
+      "OtherName": "Dimmer",
+      "MasterReact": true,
+      "DimmerReact": false,
+      "ID": "a7509cc8-4ebf-4e82-93d3-cdff9644d061",
+      "AddressFine": 2,
+      "Preset": false,
+      "Invert": false
+    }
+  ]
+}
