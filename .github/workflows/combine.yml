@@ -1,0 +1,35 @@
+name: Combine JSON Files
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # This runs the workflow every 30 minutes
+  workflow_dispatch:         # Allows manual triggering
+
+jobs:
+  combine-json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'  # Specify the Node.js version
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Combine JSON Files
+      run: node combine.js
+
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git add combined.json
+        git commit -m "Automated JSON merge"
+        git push origin main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
