@@ -2,6 +2,7 @@ name: Combine all *.json files
 
 on:
   push:
+  workflow_dispatch:
 
 jobs:
   build:
