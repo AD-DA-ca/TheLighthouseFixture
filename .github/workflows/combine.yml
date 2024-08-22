@@ -1,0 +1,22 @@
+name: Combine all *.json files
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout Repo
+        uses: actions/checkout@v4
+      - name: combine
+        run: |
+          find . -name "*.json" -exec cat {} + | jq -s '.' > combine.json
+      - name: push to repo
+        run: |
+          git config --global user.name 'Github-Workflow'
+          git config --global user.email 'Github-Workflow@xxx.com'
+          git add combine.json
+          git commit -am "combine all json-files"
+          git push
