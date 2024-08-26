@@ -1,0 +1,143 @@
+{
+  "Text": "Chauvet, Ovation P-56VW (8Ch)",
+  "Model": "Ovation P-56VW",
+  "Mode": "8Ch",
+  "Manufacturer": "Chauvet",
+  "ID": "093c975e-db2d-4b84-8152-2f7100689992",
+  "ChannelCount": 8,
+  "Attributes": [
+    {
+      "Preset": false,
+      "AddressFine": "",
+      "DefaultValue": 0,
+      "ID": "a7509cc8-4ebf-4e82-93d3-cdff9644d061",
+      "Text": "Dimmer",
+      "OtherName": "Dimmer",
+      "DimmerReact": false,
+      "Invert": false,
+      "MasterReact": true,
+      "IsVirtual": false,
+      "List": {},
+      "AddressCoarse": 1,
+      "Resolution": "8Bits"
+    },
+    {
+      "Preset": false,
+      "AddressFine": "",
+      "DefaultValue": 1,
+      "ID": "a00e449b-db73-4b77-bb19-6b995236c8fc",
+      "Text": "Red",
+      "OtherName": "Red",
+      "DimmerReact": false,
+      "Invert": false,
+      "MasterReact": false,
+      "IsVirtual": false,
+      "List": {},
+      "AddressCoarse": 2,
+      "Resolution": "8Bits"
+    },
+    {
+      "Preset": false,
+      "AddressFine": "",
+      "DefaultValue": 0,
+      "ID": "52a71b82-f2eb-4461-ba2e-d932d728b649",
+      "Text": "Red2",
+      "OtherName": "Orange",
+      "DimmerReact": false,
+      "Invert": false,
+      "MasterReact": false,
+      "IsVirtual": false,
+      "List": {},
+      "AddressCoarse": 3,
+      "Resolution": "8Bits"
+    },
+    {
+      "Preset": false,
+      "AddressFine": "",
+      "DefaultValue": 1,
+      "ID": "acb715d0-8a61-4fe8-975d-574f4b93cd68",
+      "Text": "Green",
+      "OtherName": "Green",
+      "DimmerReact": false,
+      "Invert": false,
+      "MasterReact": false,
+      "IsVirtual": false,
+      "List": {},
+      "AddressCoarse": 4,
+      "Resolution": "8Bits"
+    },
+    {
+      "Preset": false,
+      "AddressFine": "",
+      "DefaultValue": 0,
+      "ID": "e0f9083d-aa3d-411b-9f45-2bdb9b4200cd",
+      "Text": "Blue2",
+      "OtherName": "Royal blue",
+      "DimmerReact": false,
+      "Invert": false,
+      "MasterReact": false,
+      "IsVirtual": false,
+      "List": {},
+      "AddressCoarse": 5,
+      "Resolution": "8Bits"
+    },
+    {
+      "Preset": false,
+      "AddressFine": "",
+      "DefaultValue": 1,
+      "ID": "318017ca-8163-4b46-898a-28fbe352f7f1",
+      "Text": "Blue",
+      "OtherName": "Blue",
+      "DimmerReact": false,
+      "Invert": false,
+      "MasterReact": false,
+      "IsVirtual": false,
+      "List": {},
+      "AddressCoarse": 6,
+      "Resolution": "8Bits"
+    },
+    {
+      "Preset": false,
+      "AddressFine": "",
+      "DefaultValue": 0,
+      "ID": "a17e0e43-c63a-4977-aadd-9b962b8e339b",
+      "Text": "Lime",
+      "OtherName": "Lime",
+      "DimmerReact": false,
+      "Invert": false,
+      "MasterReact": false,
+      "IsVirtual": false,
+      "List": {},
+      "AddressCoarse": 7,
+      "Resolution": "8Bits"
+    },
+    {
+      "Preset": true,
+      "AddressFine": "",
+      "DefaultValue": 0,
+      "ID": "9571b99b-c29d-4e9b-8af5-9421ddb2511a",
+      "Text": "Shutter",
+      "OtherName": "Strobe",
+      "DimmerReact": false,
+      "Invert": false,
+      "MasterReact": false,
+      "IsVirtual": false,
+      "List": [
+        {
+          "FromValue": 0,
+          "ID": "d8764782-5b5d-4fdb-9f21-c89f1ea51834",
+          "ToValue": 0.03921568766236305,
+          "Text": "No function"
+        },
+        {
+          "FromValue": 0.04313725605607033,
+          "ID": "e8a1767c-86b8-4960-a19d-7b76c85fa252",
+          "ToValue": 1,
+          "Text": "Strobe, slow to fast"
+        }
+      ],
+      "AddressCoarse": 8,
+      "Resolution": "8Bits"
+    }
+  ]
+}
