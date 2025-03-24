@@ -1,0 +1,391 @@
+{
+  "Text": "Cameo, ROOT PAR 6 (11CH)",
+  "Model": "ROOT PAR 6",
+  "Mode": "11CH",
+  "Manufacturer": "Cameo",
+  "ID": "93c975ed-b2db-4840-8522-f7100689992a",
+  "ChannelCount": 11,
+  "Attributes": [
+    {
+      "DimmerReact": false,
+      "MasterReact": true,
+      "Text": "Dimmer",
+      "List": {},
+      "AddressFine": 2,
+      "Preset": false,
+      "Invert": false,
+      "ID": "7509cc84-ebfe-4827-8d3c-dff9644d061a",
+      "AddressCoarse": 1,
+      "DefaultValue": 0,
+      "IsVirtual": false,
+      "OtherName": "Dimmer",
+      "Resolution": "16Bits"
+    },
+    {
+      "DimmerReact": false,
+      "MasterReact": false,
+      "Text": "Shutter",
+      "List": [
+        {
+          "ID": "2a71b82f-2eb4-461f-a2ed-932d728b649a",
+          "Text": "1-Strobe open",
+          "ToValue": 0.019607843831181526,
+          "FromValue": 0
+        },
+        {
+          "ID": "cb715d08-a61f-4e85-95d5-74f4b93cd68e",
+          "Text": "2-Strobe closed",
+          "ToValue": 0.03921568766236305,
+          "FromValue": 0.0235294122248888
+        },
+        {
+          "ID": "0f9083da-a3d1-41b5-b452-bdb9b4200cd3",
+          "Text": "3-Ramp up/down, slow->fast",
+          "ToValue": 0.08627451211214066,
+          "FromValue": 0.04313725605607033
+        },
+        {
+          "ID": "18017ca8-163b-4463-a8a2-8fbe352f7f1a",
+          "Text": "4-Ramp up/down random, slow->fast",
+          "ToValue": 0.12941177189350128,
+          "FromValue": 0.09019608795642853
+        },
+        {
+          "ID": "17e0e43c-63a9-4779-add9-b962b8e339b9",
+          "Text": "5-Ramp up, slow->fast",
+          "ToValue": 0.1764705777168274,
+          "FromValue": 0.13333334028720856
+        },
+        {
+          "ID": "571b99bc-29de-49b0-af59-421ddb2511ad",
+          "Text": "6-Ramp up random, slow->fast",
+          "ToValue": 0.21960784494876862,
+          "FromValue": 0.18039217591285706
+        },
+        {
+          "ID": "87647825-b5df-4db4-b21c-89f1ea51834e",
+          "Text": "7-Ramp down, slow->fast",
+          "ToValue": 0.2666666805744171,
+          "FromValue": 0.2235294133424759
+        },
+        {
+          "ID": "8a1767c8-6b89-460b-89d7-b76c85fa252b",
+          "Text": "8-Ramp down random, slow->fast",
+          "ToValue": 0.30980393290519714,
+          "FromValue": 0.2705882489681244
+        },
+        {
+          "ID": "f9050a2d-d9bd-402b-a312-9555acc89ce2",
+          "Text": "9-Random Strobe effect, slow->fast",
+          "ToValue": 0.4000000059604645,
+          "FromValue": 0.3137255012989044
+        },
+        {
+          "ID": "a642d169-4834-41c2-9cec-b95d3d338f01",
+          "Text": "10-Strobe Break effect, 5s..1s (short burst with break)",
+          "ToValue": 0.49803921580314636,
+          "FromValue": 0.40392157435417175
+        },
+        {
+          "ID": "8614e322-e100-45e6-9fd8-db6408f6394a",
+          "Text": "11-Strobe slow->fast",
+          "ToValue": 0.9803921580314636,
+          "FromValue": 0.501960813999176
+        },
+        {
+          "ID": "f6e0f9c9-2360-461a-b1ca-bc8a2bbc0dab",
+          "Text": "12-Strobe open",
+          "ToValue": 1,
+          "FromValue": 0.9843137264251709
+        }
+      ],
+      "AddressFine": "",
+      "Preset": true,
+      "Invert": false,
+      "ID": "00e449bd-b73b-477f-a196-b995236c8fc5",
+      "AddressCoarse": 3,
+      "DefaultValue": 0,
+      "IsVirtual": false,
+      "OtherName": "Strobe",
+      "Resolution": "8Bits"
+    },
+    {
+      "DimmerReact": false,
+      "MasterReact": false,
+      "Text": "Red",
+      "List": {},
+      "AddressFine": "",
+      "Preset": false,
+      "Invert": false,
+      "ID": "18f042f9-4e5b-4323-ae1e-71c2fcd370c1",
+      "AddressCoarse": 4,
+      "DefaultValue": 1,
+      "IsVirtual": false,
+      "OtherName": "Red",
+      "Resolution": "8Bits"
+    },
+    {
+      "DimmerReact": false,
+      "MasterReact": false,
+      "Text": "Green",
+      "List": {},
+      "AddressFine": "",
+      "Preset": false,
+      "Invert": false,
+      "ID": "64f04332-9ef3-4caa-b7ea-2a96f8984650",
+      "AddressCoarse": 5,
+      "DefaultValue": 1,
+      "IsVirtual": false,
+      "OtherName": "Green",
+      "Resolution": "8Bits"
+    },
+    {
+      "DimmerReact": false,
+      "MasterReact": false,
+      "Text": "Blue",
+      "List": {},
+      "AddressFine": "",
+      "Preset": false,
+      "Invert": false,
+      "ID": "c3169132-a79b-47a6-b93f-e6f2e97ab044",
+      "AddressCoarse": 6,
+      "DefaultValue": 1,
+      "IsVirtual": false,
+      "OtherName": "Blue",
+      "Resolution": "8Bits"
+    },
+    {
+      "DimmerReact": false,
+      "MasterReact": false,
+      "Text": "White",
+      "List": {},
+      "AddressFine": "",
+      "Preset": false,
+      "Invert": false,
+      "ID": "6ebbe66e-4695-4bbb-a234-ae581e38a7b1",
+      "AddressCoarse": 7,
+      "DefaultValue": 0,
+      "IsVirtual": false,
+      "OtherName": "White",
+      "Resolution": "8Bits"
+    },
+    {
+      "DimmerReact": false,
+      "MasterReact": false,
+      "Text": "Amber",
+      "List": {},
+      "AddressFine": "",
+      "Preset": false,
+      "Invert": false,
+      "ID": "11054b26-1ab3-4b9a-a180-f7fb8ab560c2",
+      "AddressCoarse": 8,
+      "DefaultValue": 0,
+      "IsVirtual": false,
+      "OtherName": "Amber",
+      "Resolution": "8Bits"
+    },
+    {
+      "DimmerReact": false,
+      "MasterReact": false,
+      "Text": "Uv",
+      "List": {},
+      "AddressFine": "",
+      "Preset": false,
+      "Invert": false,
+      "ID": "04c35707-89c6-45df-af09-d644096007de",
+      "AddressCoarse": 9,
+      "DefaultValue": 0,
+      "IsVirtual": false,
+      "OtherName": "UV",
+      "Resolution": "8Bits"
+    },
+    {
+      "DimmerReact": false,
+      "MasterReact": false,
+      "Text": "Colorwheel1",
+      "List": [
+        {
+          "ID": "f3ecfdea-2944-4bc2-a71c-d1497c3bf0ab",
+          "Text": "1-Color off",
+          "ToValue": 0.019607843831181526,
+          "FromValue": 0
+        },
+        {
+          "ID": "214ad85c-3a33-4f40-b200-5a56618b5ae8",
+          "Text": "2-Red",
+          "ToValue": 0.05098039284348488,
+          "FromValue": 0.0235294122248888
+        },
+        {
+          "ID": "90746d71-9bcd-4d4d-abdc-dee8715d620a",
+          "Text": "3-Amber",
+          "ToValue": 0.08235294371843338,
+          "FromValue": 0.054901961237192154
+        },
+        {
+          "ID": "c116ac22-050f-4a0e-a603-6ac0d2a8f734",
+          "Text": "4-Yellow warm",
+          "ToValue": 0.11372549086809158,
+          "FromValue": 0.08627451211214066
+        },
+        {
+          "ID": "c5791fc2-7bfc-4a9f-a494-8b387fac97cb",
+          "Text": "5-Yellow",
+          "ToValue": 0.14509804546833038,
+          "FromValue": 0.11764705926179886
+        },
+        {
+          "ID": "f3ae9e87-7ef2-443b-ba0a-08870f2902a5",
+          "Text": "6-Green",
+          "ToValue": 0.1764705777168274,
+          "FromValue": 0.14901961386203766
+        },
+        {
+          "ID": "5a663a27-8c60-4562-bbea-a8bbf751ed71",
+          "Text": "7-Turquoise",
+          "ToValue": 0.2078431248664856,
+          "FromValue": 0.18039217591285706
+        },
+        {
+          "ID": "dc06e123-1919-49bb-ba4c-6fc326293f36",
+          "Text": "8-Cyan",
+          "ToValue": 0.2392156720161438,
+          "FromValue": 0.21176472306251526
+        },
+        {
+          "ID": "4130cce0-76c7-47b3-a1ee-d07abc4ec380",
+          "Text": "9-Blue",
+          "ToValue": 0.2705882489681244,
+          "FromValue": 0.24313727021217346
+        },
+        {
+          "ID": "8cb0b8ee-c467-40a0-bc32-0a05bc6fa47d",
+          "Text": "10-Lavender",
+          "ToValue": 0.3019607961177826,
+          "FromValue": 0.27450981736183167
+        },
+        {
+          "ID": "1122e45d-0d3e-4443-8dde-d9022572e98e",
+          "Text": "11-Mauve",
+          "ToValue": 0.3333333730697632,
+          "FromValue": 0.30588236451148987
+        },
+        {
+          "ID": "8bffdd25-42fb-4b0a-bbd1-b6aee0c70362",
+          "Text": "12-Magenta",
+          "ToValue": 0.364705890417099,
+          "FromValue": 0.33725491166114807
+        },
+        {
+          "ID": "e83ce30c-38cd-458f-ba3d-5508615e3f2d",
+          "Text": "13-Pink",
+          "ToValue": 0.3960784673690796,
+          "FromValue": 0.3686274588108063
+        },
+        {
+          "ID": "e73a8960-d244-4a8f-ac6d-b2800b5e7c0a",
+          "Text": "14-Warm White",
+          "ToValue": 0.4274509847164154,
+          "FromValue": 0.4000000059604645
+        },
+        {
+          "ID": "0af8b4da-94d7-4b50-9a66-049e6e680fd6",
+          "Text": "15-White",
+          "ToValue": 0.458823561668396,
+          "FromValue": 0.4313725531101227
+        },
+        {
+          "ID": "b5978063-edf9-4916-971d-4ce9348d44bd",
+          "Text": "16-Cold White",
+          "ToValue": 0.4901960790157318,
+          "FromValue": 0.4627451002597809
+        },
+        {
+          "ID": "337e90f0-9421-437f-8154-876e9476f8dc",
+          "Text": "17-Colo Jumping stop",
+          "ToValue": 0.49803921580314636,
+          "FromValue": 0.4941176474094391
+        },
+        {
+          "ID": "c9d5f4fb-2c72-4007-b203-dcca4ced3701",
+          "Text": "18-Color Jumping speed slow->fast/Color 1->12",
+          "ToValue": 0.6431372761726379,
+          "FromValue": 0.501960813999176
+        },
+        {
+          "ID": "05b6242b-2085-4c2e-802d-3958adef128c",
+          "Text": "19-Color Fading speed slow->fast/Color 1->12",
+          "ToValue": 0.7882353067398071,
+          "FromValue": 0.6470588445663452
+        },
+        {
+          "ID": "e1dd68a7-4ffb-4942-8975-37bfaf383e75",
+          "Text": "20-User Color_1",
+          "ToValue": 0.811764657497406,
+          "FromValue": 0.7921569347381592
+        },
+        {
+          "ID": "8955243e-bcaa-44c1-ad50-70d9899cabcd",
+          "Text": "21-User Color_2",
+          "ToValue": 0.8352941274642944,
+          "FromValue": 0.8156862854957581
+        },
+        {
+          "ID": "26c07084-13f8-4915-bd53-40f2134ca142",
+          "Text": "22-User Color_3",
+          "ToValue": 0.8588235378265381,
+          "FromValue": 0.8392156958580017
+        },
+        {
+          "ID": "392a17c5-04bd-49d1-bfa9-993f30346c4e",
+          "Text": "23-User Color_4",
+          "ToValue": 0.8823530077934265,
+          "FromValue": 0.8627451062202454
+        },
+        {
+          "ID": "6b30955a-f3e5-4fa3-9584-311bdad079e4",
+          "Text": "24-UV",
+          "ToValue": 1,
+          "FromValue": 0.886274516582489
+        }
+      ],
+      "AddressFine": "",
+      "Preset": true,
+      "Invert": false,
+      "ID": "6b9ce991-c799-49da-9045-3c5d1bae28ec",
+      "AddressCoarse": 10,
+      "DefaultValue": 0,
+      "IsVirtual": false,
+      "OtherName": "Color Presets",
+      "Resolution": "8Bits"
+    },
+    {
+      "DimmerReact": false,
+      "MasterReact": false,
+      "Text": "Other1",
+      "List": [
+        {
+          "ID": "e666adf4-090a-46f9-8659-c01645dd4397",
+          "Text": "1-Sound Control off",
+          "ToValue": 0.019607843831181526,
+          "FromValue": 0
+        },
+        {
+          "ID": "f65669e5-6f86-49c1-8315-7a51924d7f31",
+          "Text": "2-Sound Control on, mic sensitivity low->high",
+          "ToValue": 1,
+          "FromValue": 0.0235294122248888
+        }
+      ],
+      "AddressFine": "",
+      "Preset": true,
+      "Invert": false,
+      "ID": "9bded94c-28b6-4f16-8a42-33dc070f19f9",
+      "AddressCoarse": 11,
+      "DefaultValue": 0,
+      "IsVirtual": false,
+      "OtherName": "Sound",
+      "Resolution": "8Bits"
+    }
+  ]
+}
