@@ -1,0 +1,143 @@
+{
+  "Text": "Chauvet, COLORdash Par-H12XIP (9ch)",
+  "Model": "COLORdash Par-H12XIP",
+  "Mode": "9ch",
+  "Manufacturer": "Chauvet",
+  "ID": "e0f9083d-aa3d-411b-9f45-2bdb9b4200cd",
+  "ChannelCount": 9,
+  "Attributes": [
+    {
+      "Text": "Dimmer",
+      "AddressCoarse": 1,
+      "Preset": false,
+      "DimmerReact": false,
+      "Resolution": "16Bits",
+      "OtherName": "Dimmer",
+      "IsVirtual": false,
+      "List": {},
+      "Invert": false,
+      "ID": "318017ca-8163-4b46-898a-28fbe352f7f1",
+      "AddressFine": 2,
+      "DefaultValue": 0,
+      "MasterReact": true
+    },
+    {
+      "Text": "Red",
+      "AddressCoarse": 3,
+      "Preset": false,
+      "DimmerReact": false,
+      "Resolution": "8Bits",
+      "OtherName": "Red",
+      "IsVirtual": false,
+      "List": {},
+      "Invert": false,
+      "ID": "a17e0e43-c63a-4977-aadd-9b962b8e339b",
+      "AddressFine": "",
+      "DefaultValue": 1,
+      "MasterReact": false
+    },
+    {
+      "Text": "Green",
+      "AddressCoarse": 4,
+      "Preset": false,
+      "DimmerReact": false,
+      "Resolution": "8Bits",
+      "OtherName": "Green",
+      "IsVirtual": false,
+      "List": {},
+      "Invert": false,
+      "ID": "9571b99b-c29d-4e9b-8af5-9421ddb2511a",
+      "AddressFine": "",
+      "DefaultValue": 1,
+      "MasterReact": false
+    },
+    {
+      "Text": "Blue",
+      "AddressCoarse": 5,
+      "Preset": false,
+      "DimmerReact": false,
+      "Resolution": "8Bits",
+      "OtherName": "Blue",
+      "IsVirtual": false,
+      "List": {},
+      "Invert": false,
+      "ID": "d8764782-5b5d-4fdb-9f21-c89f1ea51834",
+      "AddressFine": "",
+      "DefaultValue": 1,
+      "MasterReact": false
+    },
+    {
+      "Text": "Amber",
+      "AddressCoarse": 6,
+      "Preset": false,
+      "DimmerReact": false,
+      "Resolution": "8Bits",
+      "OtherName": "Amber",
+      "IsVirtual": false,
+      "List": {},
+      "Invert": false,
+      "ID": "e8a1767c-86b8-4960-a19d-7b76c85fa252",
+      "AddressFine": "",
+      "DefaultValue": 0,
+      "MasterReact": false
+    },
+    {
+      "Text": "White",
+      "AddressCoarse": 7,
+      "Preset": false,
+      "DimmerReact": false,
+      "Resolution": "8Bits",
+      "OtherName": "White",
+      "IsVirtual": false,
+      "List": {},
+      "Invert": false,
+      "ID": "bf9050a2-dd9b-4d02-a931-29555acc89ce",
+      "AddressFine": "",
+      "DefaultValue": 0,
+      "MasterReact": false
+    },
+    {
+      "Text": "Uv",
+      "AddressCoarse": 8,
+      "Preset": false,
+      "DimmerReact": false,
+      "Resolution": "8Bits",
+      "OtherName": "Ultraviolet",
+      "IsVirtual": false,
+      "List": {},
+      "Invert": false,
+      "ID": "2a642d16-9483-441c-84ce-cb95d3d338f0",
+      "AddressFine": "",
+      "DefaultValue": 0,
+      "MasterReact": false
+    },
+    {
+      "Text": "Shutter",
+      "AddressCoarse": 9,
+      "Preset": true,
+      "DimmerReact": false,
+      "Resolution": "8Bits",
+      "OtherName": "Strobe",
+      "IsVirtual": false,
+      "List": [
+        {
+          "Text": "Open",
+          "FromValue": 0,
+          "ID": "af6e0f9c-9236-4061-ad1c-abc8a2bbc0da",
+          "ToValue": 0.03921568766236305
+        },
+        {
+          "Text": "Strobe, slow to fast",
+          "FromValue": 0.04313725605607033,
+          "ID": "b18f042f-94e5-4b32-88e1-e71c2fcd370c",
+          "ToValue": 1
+        }
+      ],
+      "Invert": false,
+      "ID": "18614e32-2e10-405e-96fd-8db6408f6394",
+      "AddressFine": "",
+      "DefaultValue": 0,
+      "MasterReact": false
+    }
+  ]
+}
